@@ -41,13 +41,18 @@
 	</li>
 </ul>
 <h4><a id="s1">Step 1: Setting up the Infrastructure</a></h4>
-<p>The first step of this assignment is to set up your environment, as described in the <a href="/cms/lang/en/pid/89766">Getting Started - Tools page</a>. If you have any trouble installing the tools for the course ask the TAs for help.</p>
+<p>The first step of this assignment is to set up your environment, as described in the <a href="project0.html">Getting Started - Tools page</a>. If you have any trouble installing the tools for the course ask the TAs for help. Note that all of the prerequisites, even Eclipse, are installed on the CS department linux machines, and you are free to use an X server such as <a href="https://sourceforge.net/projects/xming/">xming</a> to do the project remotely. Alternatively you may do the project on your own machine and then upload your results to your home directory on data.cs.purdue.edu and turn in your results using turnin.</p>
 <h4>Download the Skeleton Code:</h4>
-<p><i>Todo: Skeleton code D/L instructions</i></p>
-<h4><a id="s2">Step 2: Desugaring in the L3 compiler</a></h4>
-<p>Now you should have cloned your repository and should have found a&nbsp;<em>compiler</em> directory<em>:</em></p>
+<p>The skeleton code is available at <a href="https://www.cs.purdue.edu/homes/rompf/cs502/project/proj1.tgz">https://www.cs.purdue.edu/homes/rompf/cs502/project/proj1.tgz</a> See the course Piazza for access credentials. To download the code from a Linux terminal, go into the directory that you intend to use for the course (e.g ~/cs502) and do the following:</p>
 <pre>
-$ cd acc2016-groupXX
+wget https://www.cs.purdue.edu/homes/rompf/cs502/project/proj1.tgz --http-user=USER --http=password=PASS
+tar -xvf proj1.tgz
+cd proj1
+</pre>
+<h4><a id="s2">Step 2: Desugaring in the L3 compiler</a></h4>
+<p>Now you should have decompressed the skeleton code and should have found a&nbsp;<em>compiler</em> directory<em>:</em></p>
+<pre>
+$ cd proj1
 $ cd compiler
 $ sbt compile
 $ sbt eclipse
@@ -92,7 +97,15 @@ Enter a number: 12
 <p>&nbsp;</p>
 <h4><a id="s5">Step 5: Submitting the Assignment</a></h4>
 <p>At this point everything should be working: compiler code should be ready, local tests should be passing and all examples should be running fine. When you are comfortable with the status of your project, it's time to use the <i>turnin</i> command on one of the CS machines to submit your code. You may use data.cs.purdue.edu or any of the lab machines. If you developed your assignment on a different machine, make sure to copy your files to one of the CS machines remotely before running the turnin command.</p>
-<p><i>Todo: turnin instructions</i></p>
+<p>To turn in your project, go to the same directory that your <i>proj1</i> directory lives in (you do not have to name it proj1, but it must contain all of the project files) and type:<br>
+<pre>
+turnin -c cs502 -p project1 proj1 
+</pre>
+<p>You can verify the status of your turned in project by running:</p>
+<pre>
+turnin -c cs502 -p project1 -v
+</pre>
+</p>
 <p>The rest of this page describes the use of <a href="#sbt"><em>sbt</em></a> and <a href="#eclipse"><em>Eclipse</em></a> in this assignment.</p>
 <p>&nbsp;</p>
 <h4><a id="sbt">Tutorial: Simple Build Tool (sbt) for the l3 compiler</a></h4>
