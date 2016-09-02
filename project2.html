@@ -33,16 +33,16 @@
       <div class="title">
         <h1>Project 2: CL3 to CPS Translation</h1>
       </div>
-
+<p>Due: Sept 11, 11:59PM</p>
 <p>In this assignment, we are asking you to implement the optimized CPS transformations you have seen in the course.</p>
-<p>The skeleton code for the assignment is available <a href="#">here.</a></p>
+<p>The skeleton code for the assignment is available <a href="https://www.cs.purdue.edu/homes/rompf/cs502/project/proj2.tgz">here.</a></p>
 <p>You will notice that l3.Main from the new project doesn't run the <span class="ttt">CL3Interpreter</span> anymore but first runs the CPS translator and then an interpreter for your CPS representation. The new source files also contain a complete <span class="ttt">L3Parser</span> class with correct syntactic sugar conversions, which you can compare with your own implementation from last week.</p>
 <p>Also, you may notice that between translation and interpretation, there is an additional step called <span class="ttt">SymbolicCPSTreeChecker.</span> The purpose of this module is to go through your generated CPS tree, check that all names used are defined exactly once, and emit useful warnings in case they are not. Take advantage of this output to track any bugs you may have in the translation. Notice that, since <span class="ttt">SymbolicCPSTreeChecker.apply</span> returns <span class="ttt">Unit</span>, we have to pass it to the <span class="ttt">passThrough</span> function to integrate it in the pipeline.</p>
 
 <p>You will find that methods <span class="ttt">nonTail</span>, <span class="ttt">tail</span> and <span class="ttt">cond</span> in <span class="ttt">l3.CL3ToCPSTranslator</span> directly correspond to translations that were explained during the lecture. Transformation for <span class="ttt">let</span> is already given to you as an example. Your task is to complete these methods by adding the missing cases. <b>Important: take the time to understand the helper methods that are provided, and use them as frequently as possible!</b>  It will save you time and help you avoid common errors.</p>
 
 <h2>Turning In</h2>
-<p>To turn in your project, go to the same directory that your <i>proj2</i> directory lives in (you do not have to name it proj2, but it must contain all of the project files) and type:<br>
+<p>The project is due by September 11, 11:59PM. To turn in your project, go to the same directory that your <i>proj2</i> directory lives in (you do not have to name it proj2, but it must contain all of the project files) and type:<br>
 <pre>
 turnin -c cs502 -p project2 proj2 
 </pre>
