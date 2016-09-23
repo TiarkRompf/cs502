@@ -34,10 +34,10 @@
         <h1>Project 3: Value Representation</h1>
       </div>
       
-<p>Due: Sept 28, 11:59PM</p>
+<p>Due: Oct 6, 11:59PM</p>
 
 <p>This project will be done individually, as with the previous two projects.</p>
-<p>Your task in this assignment is to implement a compiler phase for the CPS value representation transformation. In the skeleton code, you will find a template for this compiler phase in class <span class="ttt">l3.CPSValueRepresenter.</span> You can use the helper methods in class <span class="ttt">CPSValueRepresenter</span> and object <span class="ttt">BitTwiddling.</span> Please note that the the following aspects will taken in to consideration while grading:</p>
+<p>Your task in this assignment is to implement a compiler phase for the CPS value representation transformation, including closure conversion. In the skeleton code, you will find a template for this compiler phase in class <span class="ttt">l3.CPSValueRepresenter.</span> You can use the helper methods in class <span class="ttt">CPSValueRepresenter</span> and object <span class="ttt">BitTwiddling.</span> Additionally, you are also required to implement the hoisting phase that brings all function bodies to the top level (CPSHoister.scala). Please note that the the following aspects will taken in to consideration while grading:</p>
 
 <ul>
 <li>Correctness of the implementation.
@@ -46,18 +46,28 @@
 
 <p>For instance, transforming a primitive operation <i>x op y</i> by naively decoding the arguments <i>(x,y)</i> and encoding the result back will fetch you lesser points if there exists a better translation that avoids, completely or partially, some encodings/decodings. Note: To that end, make sure to use Left shift (<span class="ttt"> << </span>) and right shift (<span class="ttt"> >> </span>) operations to implement multiplication and division by 2 as descibed in the lectures.</p>
 
-<p>The skeleton code for the assignment is available <a href="#">here. (will be updated)</a></p>
+<p>For the closure conversion part, you can choose to either implement the "simple" or the optimized version. Correctly implementing the simplified one will give you 90% of the grade for this assignment, while a correct implementation of the optimized transformation will give you 110% of the grade.</p>
 
-<p>This assignment relies on the correct implementation of the previous one (the <span class="ttt">CL3ToCPSTranslator</span> class). If you are confident that your implementation of <span class="ttt">CL3ToCPSTranslator</span> is correct, feel free to use your implementation. You are also free to use the reference implementation available <a href="https://www.cs.purdue.edu/homes/rompf/cs502/project/proj2-solution.tgz">here.</a>
+<p>Notice however that by submitting an incorrect version of the optimized transformation you may loose a lot of points depending on the mistakes. Therefore, we recommend that you start by implementing the basic closure conversion procedure and, if you are successful and still have time, to extend it to the optimized procedure.</p>
+
+
+<p>The skeleton code for the assignment is available <a href="https://www.cs.purdue.edu/homes/rompf/cs502/project/proj3.tgz">here.</a></p>
+
+<p>This assignment relies on the correct implementation of the previous one (the <span class="ttt">CL3ToCPSTranslator</span> class). If you are confident that your implementation of <span class="ttt">CL3ToCPSTranslator</span> is correct, feel free to use your implementation. You are also free to use the reference implementation that is part of the skeleton for Project 3.</a>
+
+
+
+
+
 
 <h2>Testing</h2>
 <p>From this assignment on, you will choose the shapes for the trees you generate. You should inspect them visually and decide whether or not they are correct and optimal. The application in the given skeleon code will not have whitebox tests, but it will still have an extensive blackbox test suite to ensure the correctness of the programs you generate.</p>
 
-<p>Although we will not test tree shapes, we still encourage you to do so for every transformation rule you write. You have the necessary infrastructure in <span class="ttt">l3.test.CPSDataRepresentation_Whitebox</span> so it's a matter of just writing the source code and the resulting tree. It is usually an effort that pays off.</p>
+<p>Although we will not test tree shapes, we still encourage you to do so for every transformation rule you write. You have the necessary infrastructure in <span class="ttt">l3.test.CPSValueRepresentation_Whitebox</span> so it's a matter of just writing the source code and the resulting tree. It is usually an effort that pays off.</p>
 
 <h2>Turning In</h2>
 
-<p>The project is due by September 28, 11:59PM. To turn in your project, go to the same directory that your <i>proj3</i> directory lives in (you do not have to name it proj3, but it must contain all of the project files) and type:<br>
+<p>The project is due by October 6, 11:59PM. To turn in your project, go to the same directory that your <i>proj3</i> directory lives in (you do not have to name it proj3, but it must contain all of the project files) and type:<br>
 <pre>
 turnin -c cs502 -p project3 proj3 
 </pre>
