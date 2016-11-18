@@ -153,85 +153,48 @@ turnin -c cs502 -p project4 -v
 <p>For the reference compiler we have developed, the challenge results are given below. Different results form these statistics are encouraged, especially if they reduce the numbers in one category or the other.</p>
 
 <pre>
-Challenge:
+Challenge: maze.l3 with 12 for both inputs.
 
-[stats]  
+Instruction Stats
+=================
+ 1447846  LetC
+ 1223903  LetP
+ 1126157  LetL
+  598163  If
+  262985  AppC
+  260868  AppF
+       1  Halt
+       1  LetF
 
-[stats]  Instruction Stats
+Value Primitives Stats
+======================
+  446426  CPSBlockGet$
+  236774  CPSOr$
+  231107  CPSArithShiftL$
+  228711  CPSBlockTag$
+   29386  CPSBlockSet$
+   13652  CPSBlockAlloc
+   10632  CPSSub$
+   10369  CPSAdd$
+    9672  CPSArithShiftR$
+    3570  CPSAnd$
+    1607  CPSMul$
+    1052  CPSXOr$
+     662  CPSByteWrite$
+     263  CPSMod$
+      14  CPSBlockLength$
+       6  CPSByteRead$
 
-[stats]  =================
+Logic Primitives Stats
+======================
+  380730  CPSEq$
+  214652  CPSNe$
+    2057  CPSLt$
+     672  CPSLe$
+      52  CPSGt$
 
-[stats]       202  LetP
-
-[stats]       134  LetC
-
-[stats]       125  LetL
-
-[stats]        50  If
-
-[stats]        45  AppF
-
-[stats]        33  AppC
-
-[stats]         1  LetF
-
-[stats]         1  Halt
-
-[stats]  
-
-[stats]  Value Primitives Stats
-
-[stats]  ======================
-
-[stats]        47  CPSArithShiftR$
-
-[stats]        21  CPSBlockSet$
-
-[stats]        20  CPSOr$
-
-[stats]        20  CPSArithShiftL$
-
-[stats]        18  CPSSub$
-
-[stats]        18  CPSAdd$
-
-[stats]        16  CPSByteWrite$
-
-[stats]        16  CPSBlockLength$
-
-[stats]        12  CPSBlockGet$
-
-[stats]         8  CPSBlockAlloc
-
-[stats]         2  CPSBlockTag$
-
-[stats]         2  CPSByteRead$
-
-[stats]         1  CPSMul$
-
-[stats]         1  CPSAnd$
-
-[stats]  
-
-[stats]  Logic Primitives Stats
-
-[stats]  ======================
-
-[stats]        19  CPSLt$
-
-[stats]        18  CPSLe$
-
-[stats]         7  CPSEq$
-
-[stats]         4  CPSGt$
-
-[stats]         2  CPSNe$
-
-[stats]  
-
-[stats]  Functions defined: 33
-
-[stats]  Continuations defined: 134
+Functions defined: 25
+Continuations defined: 1447846
 </pre>
 
 <!--/content-->
