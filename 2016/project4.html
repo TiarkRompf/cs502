@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CS502 by TiarkRompf</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+    .ttt {font-family: monospace; font-size: 12px; font-style: normal;}
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1>CS502</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/TiarkRompf/cs502">View the Project on GitHub <small>TiarkRompf/cs502</small></a></p>
+        <ul>
+          <li><a href="index.html"><strong>Home</strong></a></li>
+        </ul>
+      </header>
+      <section>
+<!--content-->
+
+      <div class="title">
+        <h1>Project 4: Optimization</h1>
+      </div>
+      
+<p>Due: Nov 20, 11:59PM</p>
+
+<p>Download the skeleton code for the project <a href="https://www.cs.purdue.edu/homes/rompf/cs502/project/proj4.tgz">here.</a>
+
+<p>This project will be done individually, as with the previous two projects.</p>
+<p>Your task in this assignment is to implement a series of optimizations for the CPS compiler. In the skeleton code you will find <span class="ttt">src/l3/CPSOptimizer.scala</span>. This file contains the optimizer mechanism, followed by two specific instantiations: <span class="ttt">CPSOptimizerHigh</span> and <span class="ttt">CPSOptimizerLow</span>. Your task is to fill in the optimizer mechanism, which consists of shrinking and non-shrinking optimizations (as described in the lectures) and the specific implementation of <span class="ttt">CPSOptimizerHigh</span>. The specific implementation of <span class="ttt">CPSOptimizerLow</span> is given.</p>
+<p>More specifically, you are expected to implement:</p>
+<ul>
+<li>Dead code elimination
+<li>Common-subexpression elimination
+<li>Constant folding
+<li>Neutral/absorbing elements optimization
+<li>Shrinking inlining
+<li>General inlining, according to a predetermined heuristics (see below)
+</ul>
+<p>For bonus grade, you may implement:</p>
+<ul><li>Block primitive optimizations</li></ul>
+<p>Do not implement:</p>
+<ul>
+<li>η-reduction
+<li>Contification
+</ul>
+<p>Once the optimizer is fully functional, it should optimize the following example correctly:</p>
+<p><b>Input:</b></p>
+<pre>
+(def char-print (fun (c) (@char-print c)))
+  (def function-compose
+       (fun (f g)
+            (fun (x) (f (g x)))))
+  (def + (fun (x y) (@+ x y)))
+  (def succ (fun (x) (+ x 1)))
+  (def twice (fun (x) (+ x x)))
+  (char-print (@int->char ((function-compose succ twice) 39)))
+  (char-print (@int->char ((function-compose succ succ) 73)))
+  (char-print (@int->char ((function-compose twice succ) 4)))
+</pre>
+<p><b>Output:</b></p>
+<pre>
+  (let* ((v$1 79)
+         (v$2 (char-print v$1))
+         (v$3 75)
+         (v$4 (char-print v$3))
+         (v$5 10)
+         (v$6 (char-print v$5)))
+    (halt))
+</pre>
+<p>Closures? Blocks? The optimizer eliminated all abstractions and gave us the simplest inline code possible. :D
+<br>
+Now, to start hacking on the optimizer:</p>
+<pre>
+cd l3/compiler
+sbt clean update compile 'run ../library/lib.ml3 ../examples/bignums.l3'
+...
+[info] Running l3.Main ../library/lib.ml3 ../examples/bignums.l3
+Factorial of? 12
+12! = 479001600
+
+Instruction Stats
+=================
+    1032  LetP
+     538  LetC
+     ...  ...
+</pre>
+<p>The "Instruction stats" indicate <b>how many instructions were executed</b> while computing the factorial of 12. This is in contrast to the total instructions in the output program, which is constant regardless of the input.</p>
+
+<h2>Notes on Implementation</h2>
+
+<p>The implementation sketch that is given to you is not a trivial mapping of the theory into code, so here are some notes to guide you through it.</p>
+
+<p>The optimizations are split in shrinking (in method <span class="ttt">shrink</span>) and non-shrinking (or general inlining, in method <span class="ttt">inline</span>) optimizations. Remember that shrinking optimizations are safe to apply as often as desired, while inlining may lead to arbitrarily large code, or even diverge the optimizer.</p>
+
+<p>The general idea of the optimizer (see method <span class="ttt">apply</span>) is the following: After an initial step of iteratively applying <span class="ttt">shrink</span> until a fixed point, we iteratively apply a step of <span class="ttt">inline</span> and a step of <span class="ttt">shrink</span> until one of the following happens:</p>
+<ul>
+<li>The tree does not change
+<li>We reach a specified number of iterations, or
+<li>The resulting tree's size exceeds <span class="ttt">maxSize</span>, given as a function of the initial size.
+<li>The two first conditions are checked by the <span class="ttt">fixedPoint</span> function itself, while the third is checked within <span class="ttt">inline</span>.
+</ul>
+<p>The <span class="ttt">inline</span> function is actually a small series of inlining steps. During each inlining step, we choose to inline functions/continuations of increasing size. For continuations, this size is linear to the number of steps, but for functions it is exponential (according to the Fibonacci sequence). We stop inlining after a specified number of steps, or if the tree grows to more than <span class="ttt">maxSize.</span></p>
+
+<p>The internal traversals of both the <span class="ttt">shrink</span> and <span class="ttt">inline</span> functions accept an implicit argument of the <span class="ttt">State</span> type, which, as you may have guessed, tracks the local state of the optimization. You are supposed to update it as you traverse the subtrees using the designated methods. The descriptions in the source file will hopefully make each field's role to the optimization clear.</p>
+
+<h2>Testing</h2>
+
+<p>Testing will be slightly different this time. We have 3 sets of tests:</p>
+<ul>
+<li><b>Blackbox</b> tests check the program you output runs correctly, therefore the optimizations keep the semantics of the language (see <span class="ttt">test/l3/test/CPSOptimizer_Blackbox.scala</span>)</li>
+<li><b>Greybox</b> tests execute the program while recording the execution trace and then require certain properties of the trace, such as, for example that at most 2 functions were defined (see <span class="ttt">test/l3/test/CPSOptimizer_Greybox.scala</span> and the additions to <span class="ttt">src/l3/Interpreter.scala</span> for more details)
+<li><b>Optimization challenge</b> allows showing off how good your optimizer is on larger applications: we will run an example application and output the execution statistics (see <span class="ttt">src/l3/Interpreter.scala</span>) -- you can compete with your colleagues and with our reference implementation to get the best results possible. And yes, you should brag about your results on Piazza!</li>
+<li>Some Blackbox and Greybox tests have already been given in the source code, but the Repository application contains the full test suite. Likewise, the Optimization challenge is only available in the Repository application.</li>
+</ul>
+<p>This assignment gives you a lot of liberty into how and what you optimize, so go ahead and write the best optimizer in the entire class!</p>
+
+<strike><h2>Reference Implementation</h2>
+
+<p>To allow you to easily work on this assignment, we decided to give you the reference binaries for assignments 2, 3 and 4. These will be included in the skeleton code.</p>
+
+<p>The included jar file will give access to the <span class="ttt">l3.reference</span> package, which contains <span class="ttt">CL3ToCPSTranslator, CPSValueRepresenter</span> and <span class="ttt">CPSHoister</span>. To make your project compile in Eclipse, you will have to regenerate the project files with sbt eclipse.</p>
+
+<p><b>Also keep in mind that tests we perform during grading will be executed using the reference compiler phases for assignments 2-4, only taking the optimizer from your code!</b></p>
+</strike>
+  
+<h2>Turning In</h2>
+
+<p>The project is due by November 20, 11:59PM. To turn in your project, go to the same directory that your <i>proj4</i> directory lives in (you do not have to name it proj4, but it must contain all of the project files) and type:<br>
+<pre>
+turnin -c cs502 -p project4 proj4 
+</pre>
+<p>You can verify the status of your turned in project by running:</p>
+<pre>
+turnin -c cs502 -p project4 -v
+</pre>
+</p>
+
+<h2>Challenge Results</h2>
+
+<p>For the reference compiler we have developed, the challenge results are given below. Different results form these statistics are encouraged, especially if they reduce the numbers in one category or the other.</p>
+
+<pre>
+Challenge: maze.l3 with 12 for both inputs.
+
+Instruction Stats
+=================
+ 1447846  LetC
+ 1223903  LetP
+ 1126157  LetL
+  598163  If
+  262985  AppC
+  260868  AppF
+       1  Halt
+       1  LetF
+
+Value Primitives Stats
+======================
+  446426  CPSBlockGet$
+  236774  CPSOr$
+  231107  CPSArithShiftL$
+  228711  CPSBlockTag$
+   29386  CPSBlockSet$
+   13652  CPSBlockAlloc
+   10632  CPSSub$
+   10369  CPSAdd$
+    9672  CPSArithShiftR$
+    3570  CPSAnd$
+    1607  CPSMul$
+    1052  CPSXOr$
+     662  CPSByteWrite$
+     263  CPSMod$
+      14  CPSBlockLength$
+       6  CPSByteRead$
+
+Logic Primitives Stats
+======================
+  380730  CPSEq$
+  214652  CPSNe$
+    2057  CPSLt$
+     672  CPSLe$
+      52  CPSGt$
+
+Functions defined: 25
+Continuations defined: 1447846
+</pre>
+
+<!--/content-->
+
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/TiarkRompf">TiarkRompf</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
