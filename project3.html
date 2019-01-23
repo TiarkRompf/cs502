@@ -103,10 +103,9 @@ sbt
 > run
 Usage: run PROG [OPTION]
    or: run FILE [OPTION]
-OPTION: compStack, compX86, intStack, intValue (default)
-> run examples/valid_arithm.scala              ---> interpreter with the provided interpreter
-> run examples/valid_arithm.scala compX86      ---> x86 compiler (your code)
-> run examples/valid_arithm.scala intStack    ---> stack interpreter (your code)
+OPTION: st_int
+> run examples/valid_arithm.scala           ---> interpreter with the provided interpreter, and x86 compiler
+> run examples/valid_arithm.scala st_int    ---> stack interpreter (your code), and x86 compiler
 </pre>
 
 <p>However, it is still possible to run code from the command line, as in project 1:</p>
@@ -114,7 +113,6 @@ OPTION: compStack, compX86, intStack, intValue (default)
 <pre>
 sbt
 > run "val x = 5; x"
-> run "val x = 5; x" compX86
 > run "val x = 5; x" intStack
 </pre>
 
