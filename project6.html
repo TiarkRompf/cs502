@@ -71,18 +71,19 @@
   def twice(x: Int) = x + x;
   printChar(functionCompose(succ,twice)(39));
   printChar(functionCompose(succ,succ)(73));
-  printChar(functionCompose(twice,succ)(4))
+  printChar(functionCompose(twice,succ)(4));
+  0
 </pre>
 <p><b>Output:</b></p>
 <pre>
-  vall v$1 = 79;
-  valp v$2 = byte-write(v$1);
-  vall v$3 = 75;
-  valp v$4 = byte-write(v$3);
-  vall v$5 = 10;
-  valp v$6 = byte-write(v$5);
-  vall v$7 = 0;
-  halt(v$7)
+  vall t_2 = 79;
+  valp t_3 = byte-write(t_2);
+  vall t_5 = 75;
+  valp t_6 = byte-write(t_5);
+  vall t_8 = 10;
+  valp t_9 = byte-write(t_8);
+  vall t_11 = 0;
+  halt(t_11)
 </pre>
 <p>Closures? Blocks? The optimizer eliminated all abstractions and gave us the simplest inline code possible. :D
 <br>
@@ -113,7 +114,7 @@ Instruction Stats
     2998  LetL
     ...
 </pre>
-<p>The "Instruction stats" indicate <b>how many instructions were executed</b> while computing the pascal triangle. This is in contrast to the total instructions in the output program, which is constant regardless of the input.</p>
+<p>The "Instruction stats" indicate <b>how many instructions were executed</b> while computing the pascal triangle. This is in contrast to the total instructions in the output program, which is constant regardless of the input. NOTE: the number is when you use contification.</p>
 
 <h2>Notes on Implementation</h2>
 
