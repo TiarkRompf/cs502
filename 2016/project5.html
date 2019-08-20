@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>CS502 by TiarkRompf</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39122235-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-39122235-1');
+    </script>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
@@ -33,7 +43,7 @@
       <div class="title">
         <h1>Project 5: Garbage Collection</h1>
       </div>
-      
+
 <p>Due: December, 11, 11:59PM</p>
 
 <p>Download the skeleton code for the project <a href="https://www.cs.purdue.edu/homes/rompf/cs502/project/proj5.tgz">here.</a>
@@ -49,7 +59,7 @@
 <ul>
 <li>The compiler, with reference implementations of the phases so far, a CPS register allocator and a CPS to assembly language transformer in <span class="ttt">l3/compiler/src/l3/CPSToASMTranslator.scala;</span></li>
 <li>A virtual machine for executing the assembly code, in the <span class="ttt">l3/vm </span> directory.</li>
-</ul> 
+</ul>
 
 <p>The virtual machine contains two main components:</p>
 
@@ -84,7 +94,7 @@ Maze test failed!
 <p>You can also run the tests individually, since they're included in <span class="ttt">l3/examples:</span>:</p>
 
 <pre>
-$ bin/vm ../examples/queens.asm 
+$ bin/vm ../examples/queens.asm
 enter size (0 to exit)> 10
 Error: no memory left (block of size 2 requested)
 </pre>
@@ -159,7 +169,7 @@ During the sweeping phase, you will also have to coalesce successive entries in 
 
 <p>You can either use the <code>make test</code> command to execute the tests automatically, or you can run each individual test by hand (good for debugging):
 <pre>
-$ bin/vm ../examples/asm/queens.asm 
+$ bin/vm ../examples/asm/queens.asm
 enter size (0 to exit)> 10
 Error: no memory left (block of size 16 requested)
 </pre>
@@ -174,7 +184,7 @@ Error: no memory left (block of size 16 requested)
 </ul>
 
 <h2>Debugging</h2>
- 
+
 <p>When debugging you may want to trigger a garbage collection early on. To do so, print the code size and adjust the memory with <code>bin/vm -m &lt;bytes&gt;&nbsp;</code> such that the size is just above the code size + twice the bitmap size. This will let you trigger the garbage collection early, when the program hasn't yet allocated too much space, allowing easier debugging.</p>
 
 <p><strong>Implement a procedure to check the data strcuture invariants</strong></p>
@@ -204,6 +214,6 @@ Error: no memory left (block of size 16 requested)
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
   </body>
 </html>
