@@ -119,13 +119,18 @@ sudo apt-get install manpages-posix-dev
 <div>&nbsp;</div>
 <h5>MacOSX</h5>
 <div>
-	For MacOSX, use either homebrew or macports:<br />
-	<pre><code>brew install --enable-cxx https://raw.github.com/Homebrew/homebrew-dupes/master/gcc.rb</code>
-<code>brew install https://raw.github.com/Homebrew/homebrew-dupes/master/gdb.rb</code>
+  For MacOSX, use homebrew: <br />
+  <pre><code>brew install gcc</code></pre>
+  Note that you have to use gcc-$version to use gcc in Mac (otherwise you might be using clang under gcc alias)
+<!--  For MacOSX, use either homebrew or macports:<br />
+      <pre><code>brew install --enable-cxx https://raw.github.com/Homebrew/homebrew-dupes/master/gcc.rb</code>
+<!--   <code>brew install https://raw.github.com/Homebrew/homebrew-dupes/master/gdb.rb</code>
 or
 ports install gcc47 gdb
 </pre>
+-->
 </div>
+
 <h5>Windows</h5>
 <div>Please use the <a href="http://www.mingw.org/">MinGW installer</a> and install gcc, gdb, make and bash. With these you should be able to fire up a unix-like prompt to compile your programs</div>
 <div>&nbsp;</div>
