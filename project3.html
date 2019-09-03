@@ -42,7 +42,7 @@
       </div>
 
       <blockquote>
-        <p>Due 11:59pm Monday Feb 4 (two weeks project)</p>
+        <p>Due 11:59pm Monday Sep 16 (two weeks project)</p>
       </blockquote>
 
 <h2>Useful Links</h2>
@@ -73,7 +73,7 @@ Using these functions may lead to some issues when the code is launched from sbt
 
 <pre>
 tar xzvf proj3.tar.gz
-cd proj3/compiler
+cd proj3
 </pre>
 
 <h2>Step 2: Project Structure</h2>
@@ -82,7 +82,7 @@ cd proj3/compiler
 
 <p>A description of the different files is provided below. The files you need to complete are <b>Parser.scala</b>, <b>SemanticAnalyzer.scala</b>, <b>Interpreter.scala</b>, and <b>Compiler.scala</b>. Following the path of the first project, we are going to implement the parser step by step. Follow the comments in the code and find the <b>TODOs</b>. The parts are independent and can be develop separately. In order to implement the new features more easily, we have changed some of the previous class/function definition we had. You can search for the string CHANGE into the source code to see these modifications.</p>
 
-<h3>src/miniscala/Util.scala</h3>
+<h3>src/main/scala/project3/Util.scala</h3>
 
 <p>This file defines multiple classes that are used to generate the code and run it on your machine. Nothing needs to be modified, but it is recommended to read it and have an idea of what is happening behind the scenes.</p>
 
@@ -94,7 +94,7 @@ cd proj3/compiler
 
 <p><b>out</b> will then execute our program.</p>
 
-<h3>src/miniscala/Main.scala</h3>
+<h3>src/main/scala/project3/Main.scala</h3>
 
 <p>The main function is defined in this file. The data flow in this file can be seen as:</p>
 
@@ -113,9 +113,9 @@ sbt
 > run
 Usage: run PROG [OPTION]
    or: run FILE [OPTION]
-OPTION: st_int
+OPTION: intStack
 > run examples/valid_arithm.scala           ---> interpreter with the provided interpreter, and x86 compiler
-> run examples/valid_arithm.scala st_int    ---> stack interpreter (your code), and x86 compiler
+> run examples/valid_arithm.scala intStack    ---> stack interpreter (your code), and x86 compiler
 </pre>
 
 <p>However, it is still possible to run code from the command line, as in project 1:</p>
@@ -126,7 +126,7 @@ sbt
 > run "val x = 5; x" intStack
 </pre>
 
-<h3>src/miniscala/Parser.scala</h3>
+<h3>src/main/scala/project3/Parser.scala</h3>
 
 <p>This class contains the definition of our intermediate language.</p>
 
@@ -134,23 +134,23 @@ sbt
 
 <p>The rest of the file is the definition of each parser we are building, starting from a base parser that is an implementation of the parser we implemented in project 2. What you have to do for this project is highlighted with TODOs in the code. We encourage you to read the comments and code carefully before proceeding.</p>
 
-<h3>src/miniscala/SemanticAnalyzer.scala</h3>
+<h3>src/main/scala/project3/SemanticAnalyzer.scala</h3>
 
 <p>While the parser is in charge of verifying that the input string follows the defined syntax, the semantic analyzer verifies that the program described is meaningful and follows the rules. The skeleton code already contains the semantic checks we implemented in project 2.</p>
 
 <p>However as we have seen in class, we are upgrading our semantic analyzer into a type checker. Your job is to complete the <b>typeInfer</b> function using the rules we have seen in class.</p>
 
-<h3>src/miniscala/Interpreter.scala</h3>
+<h3>src/main/scala/project3/Interpreter.scala</h3>
 
 <p>As we have seen in class, now that our programing language accepts more than just mathematical expressions, we need to define the required behavior of our language. An interpreter can be used to define this meaning.</p>
 
 <p>We provide you with an interpreter that is fully functional. Your job is to complete the <b>Stack-based</b> interpreter.</p>
 
-<h3>src/miniscala/Compiler.scala</h3>
+<h3>src/main/scala/project3/Compiler.scala</h3>
 
 <p>The x86_64 compiler handling all features up to loops is already implemented for you. You need to complete the compiler with the new features.</p>
 
-<h3>test/miniscala/test/*Test.scala</h3>
+<h3>src/test/scala/project3/*Test.scala</h3>
 
 <p>These files contain some unit tests for the first parsers. You will have to write your own tests for the others. There are some functions given to you in order to make the implementation easier.</p>
 
