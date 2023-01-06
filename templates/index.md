@@ -18,7 +18,7 @@ Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs
 > Office hours are scheduled by appointment. Please send an email to TAs to schedule an office hour.
 
 
-# About the Course { #about .anchor .octicon .octicon-link }
+# About the Course { #about }
 
 **In a nutshell:**
 The theory and practice of programming language translation, compilation, and run-time systems, organized around a significant programming project to build a compiler for a simple but non-trivial programming language.
@@ -101,7 +101,6 @@ A set of lecture notes is available here:
 - Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week14-1.pdf)
 - TurboFan JIT Design [(link)](https://docs.google.com/presentation/d/1sOEF4MlF7LeO7uq-uThJSulJlTh--wgLeaVibsbb3tc/htmlpresent)
 
-
 <!--
 Extra material:
 - [Dataflow Analysis](http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2015/slides/acc15_07_dataflow-analysis.pdf)
@@ -113,12 +112,12 @@ Extra material:
 -->
 
 
-# Project { #project }
+# Projects { #project }
 
-- [Project 1: Arithmetic](project1.html)
-- [Project 2: Branches, Loops, and Error Handling](project2.html)
+- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Jan 15)
+<!-- - [Project 2: Branches, Loops, and Error Handling](project2.html)
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html)
 - [Project 4: CMScala to CPS Translation](project4.html)
 - [Project 5: Value Representation](project5.html)
 - [Project 6: Optimization](project6.html)
-- [Project 7: Garbage Collection](project7.html)
+- [Project 7: Garbage Collection](project7.html) -->
