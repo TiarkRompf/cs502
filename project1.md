@@ -84,7 +84,7 @@ lab machines data/pod1-1 to pod1-20 with the suffix cs.purdue.edu (e.g.
 pod1-1.cs.purdue.edu, data.cs.purdue.edu)
 
 Download the skeleton file
-[proj1.zip](https://www.cs.purdue.edu/homes/jiang700/cs352/proj1.zip).
+[proj1.zip](https://www.cs.purdue.edu/homes/jia137/cs502/proj1.zip).
 
     unzip proj1.zip
     cd proj1
