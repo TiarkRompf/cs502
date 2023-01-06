@@ -206,9 +206,9 @@ content should be the `proj1` folder containing the code.**
 Your project will be tested against a set of unit tests. The weights of
 each task will be distributed as follow:
 
-  Task                Weight
-  ------------------- --------
-  parseTerm           20%
-  parseFactor         20%
-  StackASMGenerator   30%
-  RegASMGenerator     30%
+  Task               | Weight
+  -------------------|--------
+  parseTerm          | 20%
+  parseFactor        | 20%
+  StackASMGenerator  | 30%
+  RegASMGenerator    | 30%

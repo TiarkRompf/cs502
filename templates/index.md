@@ -82,24 +82,26 @@ A set of lecture notes is available here:
 
 # Slides { #schedule }
 
-- Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week1-1.pdf)
-- Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week1-2.pdf)
-- Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-1.pdf)
-- Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-2.pdf)
-- Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-1.pdf)
-- Functions - Arrays [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-2.pdf)
-- Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week4-1.pdf)
-- Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week5-1.pdf)
-- Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week6-1.pdf)
-- Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week7-1.pdf)
-- Dataflow Analysis[(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week8-1.pdf)
-- Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week10-2.pdf)
-- Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week11-2.pdf)
-- Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week12-1.pdf)
-- Interpreters And Virtual Machines [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week12-2.pdf)
-- Memory Management [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week13-1.pdf)
-- Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week14-1.pdf)
-- TurboFan JIT Design [(link)](https://docs.google.com/presentation/d/1sOEF4MlF7LeO7uq-uThJSulJlTh--wgLeaVibsbb3tc/htmlpresent)
+Week 1
+
+- Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf)
+- Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf)
+<!-- - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-1.pdf) -->
+<!-- - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-2.pdf) -->
+<!-- - Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-1.pdf) -->
+<!-- - Functions - Arrays [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-2.pdf) -->
+<!-- - Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week4-1.pdf) -->
+<!-- - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week5-1.pdf) -->
+<!-- - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week6-1.pdf) -->
+<!-- - Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week7-1.pdf) -->
+<!-- - Dataflow Analysis[(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week8-1.pdf) -->
+<!-- - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week10-2.pdf) -->
+<!-- - Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week11-2.pdf) -->
+<!-- - Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week12-1.pdf) -->
+<!-- - Interpreters And Virtual Machines [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week12-2.pdf) -->
+<!-- - Memory Management [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week13-1.pdf) -->
+<!-- - Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week14-1.pdf) -->
+<!-- - TurboFan JIT Design [(link)](https://docs.google.com/presentation/d/1sOEF4MlF7LeO7uq-uThJSulJlTh--wgLeaVibsbb3tc/htmlpresent) -->
 
 <!--
 Extra material:
@@ -115,9 +117,9 @@ Extra material:
 # Projects { #project }
 
 - [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Jan 15)
-<!-- - [Project 2: Branches, Loops, and Error Handling](project2.html)
-- [Project 3: Type Checking - Functions - Heap Allocation](project3.html)
-- [Project 4: CMScala to CPS Translation](project4.html)
-- [Project 5: Value Representation](project5.html)
-- [Project 6: Optimization](project6.html)
-- [Project 7: Garbage Collection](project7.html) -->
+<!-- - [Project 2: Branches, Loops, and Error Handling](project2.html) -->
+<!-- - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) -->
+<!-- - [Project 4: CMScala to CPS Translation](project4.html) -->
+<!-- - [Project 5: Value Representation](project5.html) -->
+<!-- - [Project 6: Optimization](project6.html) -->
+<!-- - [Project 7: Garbage Collection](project7.html) -->
