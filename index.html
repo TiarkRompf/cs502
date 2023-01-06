@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>CS502 by TiarkRompf</title>
+    <title>CS502 by Tiark Rompf</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39122235-1"></script>
@@ -33,7 +33,8 @@
         <ul>
           <li><a href="#about"><strong>About</strong></a></li>
           <li><a href="#schedule"><strong>Schedule</strong></a></li>
-          <li><a href="#project"><strong>Project</strong></a></li>
+          <li><a href="#project"><strong>Projects</strong></a></li>
+          <!--<li><a href="#topics"><strong>Homework</strong></a></li>-->
           <!--<li><a href="https://github.com/TiarkRompf/cs502">View On <strong>GitHub</strong></a></li>-->
         </ul>
       </header>
@@ -41,8 +42,9 @@
       <div class="title">
         <h1>
 <a name="cs502" class="anchor" href="#cs502"><span class="octicon octicon-link"></span></a>Compiling And Programming Systems</h1>
-        <p>Fall 2019, 3 credits. Instructor: Tiark Rompf. TA: Fei Wang, Guannan Wei.</p>
-        <p>Announcements will be posted on <a href="https://piazza.com/purdue/fall2019/cs502/home">Piazza</a>. Homework submission and grading will be done through turnin and <a href="https://mycourses.purdue.edu/webapps/login/">Blackboard</a></p>
+        <p>Spring 2023, 3 credits. Instructor: Prof. Tiark Rompf</p>
+        <p>Announcements will be posted on <a href="https://piazza.com/purdue/spring2023/cs502">Piazza</a>. Homework submission and grading will be done through <a href="https://purdue.brightspace.com/">Brightspace</a></p>
+        <!-- <p>Midterm will be in October/November, the exact date and time will be announced later.</p> -->
       </div>
 
 <!--
@@ -51,11 +53,14 @@
       </blockquote>
 -->
       <blockquote>
-        <p>Lectures are Tuesdays and Thursdays, 3:00pm to 4:15pm, FRNY B124</p>
-        <p>TA Office hours:
-        Thursday 12:00 - 13:00 by Guannan Wei for campus students (HASS G050)
-        Friday 14:00 - 15:00 by Fei Wang for remote students (via hangout feiwang3311@gmail.com)
+        <p>Lectures are Monday, Wednesday and Friday, 10:30am to 11:20am in LWSN B151. As the Pandemic situation evolves
+          the mode of lecture delivery might need to change. Please keep an eye on the announcements on Piazza.</p>
+        <p>Teaching assistants are:<ul>
+          <li>Anxhelo Xhebraj, <a href="mailto:axhebraj@purdue.edu">axhebraj@purdue.edu</a></li>
+          <li>Songlin Jia, <a href="mailto:jia137@purdue.edu">jia137@purdue.edu</a></li>
+        </ul>
         </p>
+        <p>Office hours are scheduled by appointment. Please send an email to TAs to schedule an office hour.</p>
       </blockquote>
 
         <h1><a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About the Course</h1>
@@ -77,7 +82,7 @@ Achieving a minimum of 20% in each of the three components is mandatory for a pa
 <p><b>Late Work Policy:</b> No late submission will be accepted. Exceptions will be given only in the most extreme circumstances. Any travel, including interview trips, load from work or other classes, or simply not being able to get your program to run will not be grounds for extensions or exceptions.
 
 <p><b>Academic integrity:</b>
-For general policies about academic integrity etc. please see <a href="http://spaf.cerias.purdue.edu/cpolicy.html">here</a>.
+For general policies about academic integrity etc. Please see <a href="http://spaf.cerias.purdue.edu/cpolicy.html">here</a>.
 You are expected to read that page and will be held accountable according to its contents.
 </p>
 
@@ -150,11 +155,11 @@ Modern compiler implementation in Java</a></i>, Second Edition, Andrew
 <p>
 <ul>
         <li><a href="http://www.cs.princeton.edu/%7Eappel/modern/java">
-Modern compiler implementation in Java</a></i>, Second Edition, Andrew
+<i>Modern compiler implementation in Java</i></a>, Second Edition, Andrew
   W. Appel, Cambridge University Press, 1998.</li>
 
         <li><a href="http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf">
-An Incremental Approach to Compiler Construction</a></i>, Abdulaziz Ghuloum, 2006.</li>
+<i>An Incremental Approach to Compiler Construction</i></a>, Abdulaziz Ghuloum, 2006.</li>
 
         <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwip386f9drVAhXB34MKHRLPCokQFggyMAI&url=http%3A%2F%2Fbank.engzenon.com%2Fdownload%2F560e72f1-0a74-4507-8385-12aec0feb99b%2FEngineering_a_Compiler_2nd_edition_by_Cooper_and_Torczon.pdf&usg=AFQjCNFSp0DjfX-AzwUnRl-eiBq8RxlHLA"><i>Engineering a Compiler</i></a>, Second Edition, Keith D. Cooper, Linda Torczon, 2007.</li>
 
@@ -164,6 +169,11 @@ An Incremental Approach to Compiler Construction</a></i>, Abdulaziz Ghuloum, 200
 </ul>
 </p>
 
+<h2>Supplementary Resources</h2>
+<ul>
+  <li><a href="https://docs.scala-lang.org/cheatsheets/index.html">Scala Cheatsheet</a></li>
+  <li><a href="https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf">x86_64 Cheatsheet</a></li>
+</ul>
 
 <h1><a name="textbook" class="anchor" href="#"><span class="octicon octicon-link"></span></a>Lecture Notes</h1>
 
@@ -200,97 +210,14 @@ An Incremental Approach to Compiler Construction</a></i>, Abdulaziz Ghuloum, 200
 
 
 <!--
-<h1><a name="schedule" class="anchor" href="#schedule"><span class="octicon octicon-link"></span></a>Lectures</h1>
-
-<ul>
-<li>
-    Course Introduction
-    <a href="http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_01_course-introduction.pdf">
-    (pdf)</a>
-
-<li>
-    The L3 project
-    <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_02_the-l3-project.pdf">
-    (pdf)</a>
-
-<li>
-    Intermediate representations
-    <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_03_intermediate-representations.pdf">
-    (pdf)</a>
-
-<li>
-    Values representation
-    <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_04_values-representation.pdf">
-    (pdf)</a>
-
-<li>
-      Closure conversion
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_05_closure-conversion.pdf">
-      (pdf)</a>
-
-<li>
-      Code optimizations
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_06_optimizations.pdf">
-      (pdf)</a>
-
-<li>
-      Dataflow analysis
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_07_dataflow-analysis.pdf">
-      (pdf)</a>
-
-<li>
-      Register allocation
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_08_register-allocation.pdf">
-    (pdf)</a>
-
-<li>
-      Instruction scheduling
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_09_instruction-scheduling.pdf">
-    (pdf)</a>
-
-<li>
-      Tail calls
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_10_tail-calls.pdf">
-    (pdf)</a>
-
-<li>
-      Interpreters and Virtual Machines
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_11_interpreters-vms.pdf">
-    (pdf)</a>
-
-<li>
-      Memory management
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_12_memory-management.pdf">
-    (pdf)</a>
-
-<li>
-      Object-oriented languages
-      <a href="http://lamp.epfl.ch//files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2016/acc16_13_oo-languages.pdf">
-    (pdf)</a>
-
-</ul>
-
--->
-
-
-
-<!--
-<ol>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/01-intro.pdf">Intro</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/02-lex.pdf">Lexing</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/03-parse.pdf">Parsing</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/04-semantics.pdf">Semantic Analysis</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/05-runtime.pdf">Activation Records</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/06-trans.pdf">Translation</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/07-canon.pdf">Canonical Trees</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/08-code.pdf">Instruction Selectio</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/10-liveness.pdf">Liveness Analysis</a>
-<li><a href="https://www.cs.purdue.edu/homes/rompf/cs352/slides/11-reg.pdf">Register Allocation</a>
-</ol>
-
 Extra material:
 <ol>
 <li><a href="http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2015/slides/acc15_07_dataflow-analysis.pdf">Dataflow Analysis</a>
+<li><a href="http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2015/slides/acc15_08_register-allocation.pdf">Register Allocation</a>
+<li><a href="http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2015/slides/acc15_13_instruction-scheduling.pdf">Instruction Scheduling</a>
+<li><a href="http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/advanced-compiler-construction/spring-2015/slides/acc15_11_memory-management.pdf">Memory Management</a>
+<li><a href="https://www.cs.purdue.edu/homes/ehanau/cs352/supplemental/registerliveness.pdf">CS502 Liveness Analysis Slides</a></li>
+<li><a href="https://www.cs.purdue.edu/homes/ehanau/cs352/supplemental/reachdef.pdf">CS502 Reaching Definition Slides</a></li>
 </ol>
 -->
 
