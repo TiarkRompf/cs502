@@ -1,6 +1,7 @@
 ---
 title: "Project 1: Arithmetic Expressions"
 usetable: true
+layout: template
 ---
 
 > Due 11:59pm Sunday Jan 15

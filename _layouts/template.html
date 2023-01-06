@@ -23,7 +23,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    $if(usetable)$
+    {% if page.usetable %}
     <style>
       table {
           font-family: arial, sans-serif;
@@ -41,7 +41,7 @@
           background-color: #dddddd;
       }
     </style>
-    $endif$
+    {% endif %}
   </head>
   <body>
     <div class="wrapper">
@@ -50,23 +50,23 @@
         <p></p>
         <p class="view"><a href="https://github.com/TiarkRompf/cs502">View the Project on GitHub <small>TiarkRompf/cs502</small></a></p>
         <ul>
-          $if(homepage)$
+          {% if page.homepage %}
           <li><a href="#about"><strong>About</strong></a></li>
           <li><a href="#textbook"><strong>Resources</strong></a></li>
           <li><a href="#schedule"><strong>Schedule</strong></a></li>
           <li><a href="#project"><strong>Projects</strong></a></li>
           <!--<li><a href="#topics"><strong>Homework</strong></a></li>-->
-          $else$
+          {% else %}
           <li><a href="index.html"><strong>Home</strong></a></li>
-          $endif$
+          {% endif %}
           <!--<li><a href="https://github.com/TiarkRompf/cs502">View On <strong>GitHub</strong></a></li>-->
         </ul>
       </header>
       <section>
         <div class="title">
-          <h1>$title$</h1>
+          <h1>{{ page.title }}</h1>
         </div>
-        $body$
+        {{ content }}
       </section>
     </div>
     <footer>

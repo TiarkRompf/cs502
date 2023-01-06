@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+layout: template
 ---
 
 This page will explain how to setup the tools necessary for development.
@@ -22,7 +23,7 @@ The tools you will need to install and configure are:
 Please don't hesitate to ask for help on the course Piazza if you have
 any problems setting up the environment.
 
-## [Installing Scala](#local-scala){#local-scala}
+## <a id="local-scala">Installing Scala</a>
 
 The scala compiler `scalac` compiles Scala source code down to Java
 bytecode which is then interpreted by the Java Virtual Machine (JVM),
@@ -100,7 +101,7 @@ under `src/main/scala`. This directory denotes that the source files are
 Scala code. Similarly to Java, package hierarchy is reflected in the
 directory structure.
 
-## [Installing a C Compiler, a debugger and the make build tool](#local-c){#local-c}
+## <a id="local-c">Installing a C Compiler, a debugger and the make build tool</a>
 
 These tools depend on the operating system you will be using. If you
 have any trouble installing the tools for the course, ask for help on
@@ -143,7 +144,7 @@ fire up a unix-like prompt to compile your programs
 Once the installation is successful, you should be able to invoke gcc,
 make and gdb:
 
-## [Installing an IDE](#local-ide){#local-ide}
+## <a id="local-ide">Installing an IDE</a>
 
 The preferred method of development for this course would be writing
 Scala and C code on your local machine using IntelliJ IDEA Ultimate
@@ -175,7 +176,7 @@ IntelliJ might be slow on machines with few resources. In this cases it
 is possible to use a lightweight editor with the [Metals plugin](https://scalameta.org/metals/docs/).
 Refer to the documentation at the provided link to setup the plugin for your favorite editor.
 
-## [Remote development with VSCode on data.cs.purdue.edu](#remote-dev){#remote-dev}
+## <a id="remote-dev">Remote development with VSCode on data.cs.purdue.edu</a>
 
 If the installation of C related tools such as `gcc` fails, you can
 follow these steps to develop on remote machines but still have an

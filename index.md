@@ -1,4 +1,5 @@
 ---
+layout: template
 title: Compiling And Programming Systems
 homepage: true
 ---
@@ -18,7 +19,7 @@ Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs
 > Office hours are scheduled by appointment. Please send an email to TAs to schedule an office hour.
 
 
-# About the Course { #about }
+# About the Course <a id="about"></a>
 
 **In a nutshell:**
 The theory and practice of programming language translation, compilation, and run-time systems, organized around a significant programming project to build a compiler for a simple but non-trivial programming language.
@@ -61,7 +62,7 @@ You are expected to read that page and will be held accountable according to its
 -->
 
 
-# Recommended Books { #textbook }
+# Recommended Books <a id="textbook"></a>
 
 - [*Modern compiler implementation in Java*](http://www.cs.princeton.edu/%7Eappel/modern/java), Second Edition, Andrew W. Appel, Cambridge University Press, 1998.
 - [*An Incremental Approach to Compiler Construction*](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf), Abdulaziz Ghuloum, 2006.
@@ -80,7 +81,7 @@ A set of lecture notes is available here:
 - [Post-Modern Compiler Design](https://www.cs.purdue.edu/homes/rompf/pmca/)
 
 
-# Slides { #schedule }
+# Slides <a id="schedule"></a>
 
 Week 1
 
@@ -114,7 +115,7 @@ Extra material:
 -->
 
 
-# Projects { #project }
+# Projects <a id="project"></a>
 
 - [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Jan 15)
 <!-- - [Project 2: Branches, Loops, and Error Handling](project2.html) -->
