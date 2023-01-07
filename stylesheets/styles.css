@@ -342,7 +342,7 @@ footer p + p {
   }
 
   header p.view {
-    display: block;
+    display: none;
   }
 
   header p {
