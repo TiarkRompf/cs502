@@ -6,7 +6,7 @@ homepage: true
 
 Spring 2023, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs502). Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/).
+Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs502){:target="_blank"}. Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
 > Lectures are Monday, Wednesday and Friday, 10:30am to 11:20am in LWSN B151. As the Pandemic situation evolves
 > the mode of lecture delivery might need to change. Please keep an eye on the announcements on Piazza.
@@ -24,7 +24,7 @@ Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs
 **In a nutshell:**
 The theory and practice of programming language translation, compilation, and run-time systems, organized around a significant programming project to build a compiler for a simple but non-trivial programming language.
 
-Parts of the class are based on the [Advanced Compiler Construction](http://lamp.epfl.ch/teaching/advanced_compiler) class taught by Michel Schinz at EPFL. The corresponding class materials (lecture slides, programming assignments, etc) are used with permission.
+Parts of the class are based on the [Advanced Compiler Construction](http://lamp.epfl.ch/teaching/advanced_compiler){:target="_blank"} class taught by Michel Schinz at EPFL. The corresponding class materials (lecture slides, programming assignments, etc) are used with permission.
 
 **Grades:** Final grades will be based on results for the programming assignments (50%), midterm (20%), and final exam (30%).
 Achieving a minimum of 20% in each of the three components is mandatory for a passing grade.
@@ -32,7 +32,7 @@ Achieving a minimum of 20% in each of the three components is mandatory for a pa
 **Late Work Policy:** No late submission will be accepted. Exceptions will be given only in the most extreme circumstances. Any travel, including interview trips, load from work or other classes, or simply not being able to get your program to run will not be grounds for extensions or exceptions.
 
 **Academic integrity:**
-For general policies about academic integrity etc. Please see [here](http://spaf.cerias.purdue.edu/cpolicy.html).
+For general policies about academic integrity etc. Please see [here](http://spaf.cerias.purdue.edu/cpolicy.html){:target="_blank"}.
 You are expected to read that page and will be held accountable according to its contents.
 
 
@@ -64,29 +64,29 @@ You are expected to read that page and will be held accountable according to its
 
 # Recommended Books <a id="textbook"></a>
 
-- [*Modern compiler implementation in Java*](http://www.cs.princeton.edu/%7Eappel/modern/java), Second Edition, Andrew W. Appel, Cambridge University Press, 1998.
-- [*An Incremental Approach to Compiler Construction*](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf), Abdulaziz Ghuloum, 2006.
-- [*Engineering a Compiler*](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwip386f9drVAhXB34MKHRLPCokQFggyMAI&url=http%3A%2F%2Fbank.engzenon.com%2Fdownload%2F560e72f1-0a74-4507-8385-12aec0feb99b%2FEngineering_a_Compiler_2nd_edition_by_Cooper_and_Torczon.pdf&usg=AFQjCNFSp0DjfX-AzwUnRl-eiBq8RxlHLA), Second Edition, Keith D. Cooper, Linda Torczon, 2007.
-- [*Compilers: Principles, Techniques, and Tools*](http://dragonbook.stanford.edu), Aho, Lam, Sethi, Ullman, Addison-Wesley, 2007.
+- [*Modern compiler implementation in Java*](http://www.cs.princeton.edu/%7Eappel/modern/java){:target="_blank"}, Second Edition, Andrew W. Appel, Cambridge University Press, 1998.
+- [*An Incremental Approach to Compiler Construction*](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf){:target="_blank"}, Abdulaziz Ghuloum, 2006.
+- [*Engineering a Compiler*](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwip386f9drVAhXB34MKHRLPCokQFggyMAI&url=http%3A%2F%2Fbank.engzenon.com%2Fdownload%2F560e72f1-0a74-4507-8385-12aec0feb99b%2FEngineering_a_Compiler_2nd_edition_by_Cooper_and_Torczon.pdf&usg=AFQjCNFSp0DjfX-AzwUnRl-eiBq8RxlHLA){:target="_blank"}, Second Edition, Keith D. Cooper, Linda Torczon, 2007.
+- [*Compilers: Principles, Techniques, and Tools*](http://dragonbook.stanford.edu){:target="_blank"}, Aho, Lam, Sethi, Ullman, Addison-Wesley, 2007.
 
 ## Supplementary Resources
 
-- [Scala Cheatsheet](https://docs.scala-lang.org/cheatsheets/index.html)
-- [x86_64 Cheatsheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+- [Scala Cheatsheet](https://docs.scala-lang.org/cheatsheets/index.html){:target="_blank"}
+- [x86_64 Cheatsheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf){:target="_blank"}
 
 # Lecture Notes
 
 A set of lecture notes is available here:
 
-- [Post-Modern Compiler Design](https://www.cs.purdue.edu/homes/rompf/pmca/)
+- [Post-Modern Compiler Design](https://www.cs.purdue.edu/homes/rompf/pmca/){:target="_blank"}
 
 
 # Slides <a id="schedule"></a>
 
 Week 1
 
-- Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf)
-- Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf)
+- Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf){:target="_blank"}
+- Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf){:target="_blank"}
 <!-- - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-1.pdf) -->
 <!-- - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-2.pdf) -->
 <!-- - Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-1.pdf) -->

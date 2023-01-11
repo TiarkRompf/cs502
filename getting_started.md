@@ -137,7 +137,7 @@ For MacOSX use homebrew:
 
 ### Windows
 
-Please follow steps 3 and 4 of the Prerequisites section [at this link](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites)
+Please follow steps 3 and 4 of the Prerequisites section [at this link](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites){:target="_blank"}
 and install gcc, gdb, make and bash. With these you should be able to
 fire up a unix-like prompt to compile your programs
 
@@ -153,9 +153,9 @@ edition.
 ### Installing and configuring IntelliJ
 
 A popular IDE for Scala is IntelliJ, which you can find
-[here](https://www.jetbrains.com/idea/download/). We advise installing
+[here](https://www.jetbrains.com/idea/download/){:target="_blank"}. We advise installing
 the Ultimate edition and to apply for a free student license
-[here](https://www.jetbrains.com/student/). Always make sure to have the
+[here](https://www.jetbrains.com/student/){:target="_blank"}. Always make sure to have the
 latest version installed. Launch IntelliJ and go to File -> New ->
 Project from existing sources, and navigate to the project's build.sbt
 file. Choose the 1.8 (Java 8) as the project's SDK. In case Java was
@@ -173,7 +173,7 @@ configure them and you're good to go.
 ### VS Code/Vim/Emacs/\<insert your favorite editor\>
 
 IntelliJ might be slow on machines with few resources. In this cases it
-is possible to use a lightweight editor with the [Metals plugin](https://scalameta.org/metals/docs/).
+is possible to use a lightweight editor with the [Metals plugin](https://scalameta.org/metals/docs/){:target="_blank"}.
 Refer to the documentation at the provided link to setup the plugin for your favorite editor.
 
 ## <a id="remote-dev">Remote development with VSCode on data.cs.purdue.edu</a>
@@ -182,15 +182,15 @@ If the installation of C related tools such as `gcc` fails, you can
 follow these steps to develop on remote machines but still have an
 IDE-like experience.
 
--   Install [VSCode](https://code.visualstudio.com/)
+-   Install [VSCode](https://code.visualstudio.com/){:target="_blank"}
 -   On one of the machines of the lab such as `data.cs.purdue.edu`,
     perform the commands shown in section [Installing Scala](#local-scala)
--   From the extension tab on VSCode install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+-   From the extension tab on VSCode install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack){:target="_blank"}
     extension
--   From VSCode connect to the remote host as shown in the [Connect to a remote host](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host)
+-   From VSCode connect to the remote host as shown in the [Connect to a remote host](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host){:target="_blank"}
     section on this guide
 -   From the extension tab on VSCode install the
-    [Metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)
-    extension on the remote machine (tips on how to use it at [the documentation](https://scalameta.org/metals/docs/))
+    [Metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals){:target="_blank"}
+    extension on the remote machine (tips on how to use it at [the documentation](https://scalameta.org/metals/docs/){:target="_blank"})
 
 Congratulations, you've set up the tools you will use for CS502!
