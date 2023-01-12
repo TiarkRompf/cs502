@@ -23,6 +23,11 @@ The tools you will need to install and configure are:
 Please don't hesitate to ask for help on the course Piazza if you have
 any problems setting up the environment.
 
+As the projects are to generate code in x86_64 assembly, the projects
+will be tested on an x86_64 Linux server. Thus, developing on non-x86_64
+non-Unix-like platform is possible but **not** recommended. Consider
+[using a lab machine](#remote-dev) if that is your case.
+
 ## <a id="local-scala">Installing Scala</a>
 
 The scala compiler `scalac` compiles Scala source code down to Java
