@@ -16,7 +16,7 @@ Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs
 > - Anxhelo Xhebraj, <axhebraj@purdue.edu>
 > - Songlin Jia, <jia137@purdue.edu>
 >
-> Office hours are scheduled by appointment. Please send an email to TAs to schedule an office hour.
+> Office hour is 2-4pm Monday, by [Zoom](https://purdue-edu.zoom.us/j/96539040632) (passcode 530432).
 
 
 # About the Course <a id="about"></a>
@@ -87,7 +87,10 @@ Week 1
 
 - Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf){:target="_blank"}
 - Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf){:target="_blank"}
-<!-- - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-1.pdf) -->
+
+Week 2
+
+- Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-1.pdf){:target="_blank"}
 <!-- - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week2-2.pdf) -->
 <!-- - Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-1.pdf) -->
 <!-- - Functions - Arrays [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week3-2.pdf) -->
