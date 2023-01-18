@@ -9,7 +9,7 @@ layout: template
 ## Useful Links
 
 -   [x86_64 cheat
-    sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+    sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf){:target="_blank"}
 
 ## Introduction
 
@@ -27,9 +27,9 @@ writing code in our programming language, the programmer will have
 access to two primitives:
 
 -   **getchar** of type () =\> Int.
-    [doc](https://en.wikibooks.org/wiki/C_Programming/stdio.h/getchar)
+    [doc](https://en.wikibooks.org/wiki/C_Programming/stdio.h/getchar){:target="_blank"}
 -   **putchar** of type Int =\> Unit.
-    [doc](https://en.wikibooks.org/wiki/C_Programming/stdio.h/putchar)
+    [doc](https://en.wikibooks.org/wiki/C_Programming/stdio.h/putchar){:target="_blank"}
     (we do not return the character)
 
 Using these functions may lead to some issues when the code is launched
@@ -47,7 +47,7 @@ lab machines pod1-1 to pod1-20 with the suffix cs.purdue.edu (e.g.
 pod1-1.cs.purdue.edu)
 
 Download the skeleton file
-[here](https://www.cs.purdue.edu/homes/jiang700/cs352/proj3.zip).
+[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj3.zip){:target="_blank"}.
 
     unzip proj3.zip
     cd proj3

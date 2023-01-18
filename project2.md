@@ -9,7 +9,7 @@ layout: template
 ## Useful Links
 
 -   [x86_64 cheat sheet (up to page 4 for this
-    project)](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+    project)](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf){:target="_blank"}
 
 ## Introduction
 
@@ -32,7 +32,7 @@ lab machines pod1-1 to pod1-20 with the suffix cs.purdue.edu (e.g.
 pod1-1.cs.purdue.edu)
 
 Download the skeleton file
-[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj2.zip).
+[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj2.zip){:target="_blank"}.
 
     unzip proj2.zip
     cd proj2
