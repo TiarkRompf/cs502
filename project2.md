@@ -174,9 +174,9 @@ will use a register-based approach.**
 
 ### Tests src/test/scala/project2/\*Test.scala
 
-These files contain some unit tests for the first parsers. [You will
+These files contain some unit tests for the first parsers. <mark>You will
 have to write your own tests for the others. Every task should have at
-least 2 tests otherwise points will be deducted]{.mark}. There are some
+least 2 tests otherwise points will be deducted.</mark> There are some
 functions given to you in order to make the implementation easier.
 
 ## Turnin
