@@ -111,7 +111,7 @@ has been provided. Here some examples how to run the code:
     Usage: run PROG [OPTION]
        or: run FILE [OPTION]
     OPTION: intStack
-    > run examples/valid_arithm.scala           ---> interpreter with the provided interpreter, and x86 compiler
+    > run examples/valid_arithm.scala           ---> interpret with the provided interpreter, and x86 compiler
     > run examples/valid_arithm.scala intStack    ---> stack interpreter (your code), and x86 compiler
 
 However, it is still possible to run code from the command line, as in
