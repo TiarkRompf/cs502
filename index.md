@@ -16,7 +16,7 @@ Announcements will be posted on [Piazza](https://piazza.com/purdue/spring2023/cs
 > - Anxhelo Xhebraj, <axhebraj@purdue.edu>
 > - Songlin Jia, <jia137@purdue.edu>
 >
-> Office hour is 2-4pm Monday, by [Zoom](https://purdue-edu.zoom.us/j/96539040632) (passcode 530432).
+> Office hour is 9-11am Tuesday, by [Zoom](https://purdue-edu.zoom.us/j/96539040632) (passcode 530432).
 
 
 # About the Course <a id="about"></a>
