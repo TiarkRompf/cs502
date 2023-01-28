@@ -19,7 +19,7 @@ As such, we will now shift gears and focus more heavily on creating an
 optimized backend.
 
 For this project, we have provided you with a more complex frontend than
-we\'ve seen thus far. Some of the new pieces of syntactic sugar of which
+we've seen thus far. Some of the new pieces of syntactic sugar of which
 you should be aware are as follows:
 
 -   `e1 && e2` ==\> `if (e1) e2 else false`
@@ -29,15 +29,15 @@ you should be aware are as follows:
 -   `(n1: T1, ...) => b1` ==\> `def anon1(n1: T1, ...) = b1; anon1`
 
 You can find all code dealing with syntactic sugar in
-compiler/src/miniscala/MiniScalaParser.scala, though you will not need
+`compiler/src/miniscala/MiniScalaParser.scala`, though you will not need
 to make any modifications there.
 
 Similarly, the code for desugaring can be found in
-compiler/src/miniscala/CMScalaAnalyzer.scala. Again, no modifications
+`compiler/src/miniscala/CMScalaAnalyzer.scala`. Again, no modifications
 are necessary in this file.
 
 As we will not be providing solutions for previous assignments, you may
-want to look over MiniScalaParser and CMScalaAnalyzer if you have any
+want to look over `MiniScalaParser` and `CMScalaAnalyzer` if you have any
 questions about how these functions are implemented. We are also happy
 to provide further clarification on Piazza as needed.
 
@@ -58,18 +58,18 @@ some of the types available in our language:
 
 And some corresponding operators:
 
--   \+ - \* \<\< \>\> & \| \^ / % : (Int, Int) =\> Int
--   \< \<= \> \>= : (Int, Int) =\> Boolean
--   == !=: (T1, T2) =\> Boolean
--   id : T =\> T
--   toChar : Int =\> Char //Note: Int must be valid Unicode code-point
--   toInt : Char =\> Int
--   isInt isChar isBoolean isUnit : T =\> Boolean
--   getchar : () =\> Int, between 0 and 255, or -1
--   putchar : Int =\> Unit, Int between 0 and 255
+-   `+` `-` `*` `<<` `>>` `&` `|` `^` `/` `%` : `(Int, Int) => Int`
+-   `<` `<=` `>` `>=` : `(Int, Int) => Boolean`
+-   `==` `!=` : `(T1, T2) => Boolean`
+-   `id` : `T => T`
+-   `toChar` : `Int => Char` //Note: Int must be valid Unicode code-point
+-   `toInt` : `Char => Int`
+-   `isInt` `isChar` `isBoolean` `isUnit` : `T => Boolean`
+-   `getchar` : `() => Int`, between 0 and 255, or -1
+-   `putchar` : `Int => Unit`, Int between 0 and 255
 
-Other types include Array\[T\], function types, Pairs, and List\[T\].
-Take a look at the files in library/ to see how to use them.
+Other types include `Array[T]`, function types, Pairs, and `List[T]`.
+Take a look at the files in `library/` to see how to use them.
 
 ## Step 1: Getting Started
 
@@ -81,7 +81,7 @@ interface.
 
 If you use remote access to work on your project, please use one of the
 lab machines pod1-1 to pod1-20 with the suffix cs.purdue.edu (e.g.
-pod1-1.cs.purdue.edu)
+`pod1-1.cs.purdue.edu`)
 
 Download the skeleton file
 [here](https://www.cs.purdue.edu/homes/jia137/cs502/proj4.zip).
@@ -91,16 +91,16 @@ Download the skeleton file
 ### Browse the Files
 
 Now the project directory has changed a little bit. In the top dir, you
-can see compiler/ examples/ and library/. The src and test codes are in
-compiler/. The examples/ dir is like before: providing example programs.
-The library/ dir contains files that define standard libraries for our
-language. In compiler/src/miniscala/, all files with the prefix
+can see `compiler/` `examples/` and `library/`. The src and test codes are in
+`compiler/`. The `examples/` dir is like before: providing example programs.
+The `library/` dir contains files that define standard libraries for our
+language. In `compiler/src/miniscala/`, all files with the prefix
 MiniScala are handling the parsing. All files with prefix CMScala are
 handling the semantic analyzer pass.
 
 You only need to update the file **CMScalaToCPSTranslator**.
 
-You will notice that Main.scala from the new project doesn\'t run the
+You will notice that `Main.scala` from the new project doesn't run the
 `CMScalaInterpreter` anymore (it was the interpreter we were using
 before), but first runs the CPS translator and then an interpreter for
 your CPS representation.
@@ -127,20 +127,20 @@ time and help you avoid common errors.
 Note that there are two different kinds of tests: Whitebox and Blackbox.
 Whitebox tests check that the entire output (i.e., the IR
 post-translation) is correct. Blackbox tests only ensure that the value
-generated is correct (e.g., def f(x: Int) = x\*x; 0 will only check that
+generated is correct (e.g., `def f(x: Int) = x*x; 0` will only check that
 the program returns 0).
 
 ### Implementation Hint
 
-Try implementing the non-optimized translations in nonTail (there are
+Try implementing the non-optimized translations in `nonTail` (there are
 the rules shown in the beginning of the lecture). This represents 80% of
 the work. Once this is done, you can implement the optimized version
-using all three functions available (nonTail, tail, and cond).
+using all three functions available (`nonTail`, `tail`, and `cond`).
 
 ## Turnin
 
-You should turn in the **proj4** directory. Please run an \'sbt clean\'
-and \'./cleanall.sh\' before submitting.
+You should turn in the **proj4** directory. Please run an '`sbt clean`'
+and '`./cleanall.sh`' before submitting.
 
 To turn in your project create a ZIP file named
 `<purdueemailusername>-proj<N>.zip` of the `proj4` directory for
