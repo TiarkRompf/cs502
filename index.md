@@ -97,7 +97,11 @@ Week 3
 
 - Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week3-1.pdf){:target="_blank"}
 - Functions - Arrays [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week3-2.pdf){:target="_blank"}
-<!-- - Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week4-1.pdf) -->
+
+Week 4
+
+- Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week4-1.pdf){:target="_blank"}
+
 <!-- - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week5-1.pdf) -->
 <!-- - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week6-1.pdf) -->
 <!-- - Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week7-1.pdf) -->
