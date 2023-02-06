@@ -76,8 +76,8 @@ Take a look at the files in `library/` to see how to use them.
 The project has been designed and tested for Linux/Mac OS. If you only
 have Windows installed on your personal laptop, consider running Linux
 in a VM or using the lab machines for the project. Another alternative
-is to try Windows Terminal App, which offers a Ubuntu18 terminal
-interface.
+is to try [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/)
+and [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/).
 
 If you use remote access to work on your project, please use one of the
 lab machines pod1-1 to pod1-20 with the suffix cs.purdue.edu (e.g.
@@ -95,7 +95,7 @@ can see `compiler/` `examples/` and `library/`. The src and test codes are in
 `compiler/`. The `examples/` dir is like before: providing example programs.
 The `library/` dir contains files that define standard libraries for our
 language. In `compiler/src/miniscala/`, all files with the prefix
-MiniScala are handling the parsing. All files with prefix CMScala are
+`MiniScala` are handling the parsing. All files with prefix `CMScala` are
 handling the semantic analyzer pass.
 
 You only need to update the file **CMScalaToCPSTranslator**.
