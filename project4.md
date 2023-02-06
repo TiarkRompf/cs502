@@ -22,11 +22,11 @@ For this project, we have provided you with a more complex frontend than
 we've seen thus far. Some of the new pieces of syntactic sugar of which
 you should be aware are as follows:
 
--   `e1 && e2` &xrArr; `if (e1) e2 else false`
--   `e1 || e2` &xrArr; `if (e1) true else e2`
--   `!e1` &xrArr; `if (e1) false else true`
--   `"c1...cn"` &xrArr; `val s = new Array[Char](200); s(0) = 'c1'; ...; s`
--   `(n1: T1, ...) => b1` &xrArr; `def anon1(n1: T1, ...) = b1; anon1`
+-   `e1 && e2` ⟹ `if (e1) e2 else false`
+-   `e1 || e2` ⟹ `if (e1) true else e2`
+-   `!e1` ⟹ `if (e1) false else true`
+-   `"c1...cn"` ⟹ `val s = new Array[Char](200); s(0) = 'c1'; ...; s`
+-   `(n1: T1, ...) => b1` ⟹ `def anon1(n1: T1, ...) = b1; anon1`
 
 You can find all code dealing with syntactic sugar in
 `compiler/src/miniscala/MiniScalaParser.scala`, though you will not need
