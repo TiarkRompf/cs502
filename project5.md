@@ -77,7 +77,7 @@ infrastructure in `miniscala.test.CPSValueRepresentation_Whitebox`
 so it\'s a matter of just writing the source code and the resulting
 tree. It is usually an effort that pays off.
 
-[You should write 10 tests otherwise points will be deducted]{.mark}
+<mark>You should write 10 tests otherwise points will be deducted.</mark>
 
 ## Road Map
 
