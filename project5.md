@@ -107,7 +107,7 @@ Tips:
     `Symbol.fresh("w")`.
 
 The skeleton code for the assignment is available
-[here.](https://www.cs.purdue.edu/homes/jia137/cs502/proj5.zip)
+[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj5.zip){:target="_blank"}.
 
 This assignment relies on the correct implementation of the previous one
 (the `CMScalaToCPSTranslator` class). If you are confident that

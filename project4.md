@@ -76,15 +76,15 @@ Take a look at the files in `library/` to see how to use them.
 The project has been designed and tested for Linux/Mac OS. If you only
 have Windows installed on your personal laptop, consider running Linux
 in a VM or using the lab machines for the project. Another alternative
-is to try [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/)
-and [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/).
+is to try [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/){:target="_blank"}
+and [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/){:target="_blank"}.
 
 If you use remote access to work on your project, please use one of the
 lab machines pod1-1 to pod1-20 with the suffix cs.purdue.edu (e.g.
 `pod1-1.cs.purdue.edu`)
 
 Download the skeleton file
-[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj4.zip).
+[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj4.zip){:target="_blank"}.
 
 ## Step 2: Project Structure
 
