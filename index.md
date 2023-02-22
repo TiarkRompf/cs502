@@ -107,7 +107,10 @@ Week 6
 - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week5-1.pdf){:target="_blank"}
 - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week6-1.pdf){:target="_blank"}
 
-<!-- - Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week7-1.pdf) -->
+Week 7
+
+- Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week7-1.pdf){:target="_blank"}
+
 <!-- - Dataflow Analysis[(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week8-1.pdf) -->
 <!-- - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week10-2.pdf) -->
 <!-- - Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week11-2.pdf) -->
