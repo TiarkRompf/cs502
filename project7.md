@@ -88,7 +88,7 @@ first address that directly follows the program code. The memory
 starting from this address can be used by the memory manager to store
 its data structures and for allocating blocks in the heap: 
 
-![GC Diagram 1](images/ACC-assingment6-diag2-1.png){width="400"
+![GC Diagram 1](images/ACC-assingment6-diag2-1.png){:width="400"
 height="183"}
 
 The function `memory_allocate` is invoked when a heap block needs to be
@@ -194,7 +194,7 @@ cleared.
 To complete the above picture, the memory layout would actually look
 like this:
 
-![GC Diagram 2](images/ACC-assingment6-diag2-2.png){width="400"
+![GC Diagram 2](images/ACC-assingment6-diag2-2.png){:width="400"
 height="323"}
 
 ## Testing
