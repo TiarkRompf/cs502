@@ -7,7 +7,7 @@ layout: template
 > Due 11:59PM Sunday April 2nd
 
 Download the skeleton code for the project
-[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj6.zip).
+[here](https://www.cs.purdue.edu/homes/jia137/cs502/proj6.zip){:target="_blank"}.
 
 Your task in this assignment is to implement a series of optimizations
 for the CPS compiler. In the skeleton code you will find
