@@ -115,7 +115,10 @@ Week 8
 
 - Dataflow Analysis [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week8-1.pdf){:target="_blank"}
 
-<!-- - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week10-2.pdf) -->
+Week 11
+
+- Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week10-2.pdf){:target="_blank"}
+
 <!-- - Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week11-2.pdf) -->
 <!-- - Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week12-1.pdf) -->
 <!-- - Interpreters And Virtual Machines [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week12-2.pdf) -->
@@ -141,5 +144,5 @@ Extra material:
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Feb 5)
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Feb 19)
 - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Mar 5)
-<!-- - [Project 6: Optimization](project6.html) -->
+- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Apr 2)
 <!-- - [Project 7: Garbage Collection](project7.html) -->
