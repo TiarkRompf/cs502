@@ -148,4 +148,4 @@ Extra material:
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Feb 19)
 - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Mar 5)
 - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Apr 2)
-<!-- - [Project 7: Garbage Collection](project7.html) -->
+- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Apr 23)
