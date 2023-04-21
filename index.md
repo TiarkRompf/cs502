@@ -128,7 +128,11 @@ Week 14
 
 - Interpreters And Virtual Machines [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week12-2.pdf){:target="_blank"}
 - Memory Management [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week13-1.pdf){:target="_blank"}
-<!-- - Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jiang700/cs352/week14-1.pdf) -->
+
+Week 15
+
+- Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week14-1.pdf){:target="_blank"}
+
 <!-- - TurboFan JIT Design [(link)](https://docs.google.com/presentation/d/1sOEF4MlF7LeO7uq-uThJSulJlTh--wgLeaVibsbb3tc/htmlpresent) -->
 
 <!--
