@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due 11:59pm Sunday Jan 15
+> Due 11:59pm Sunday Aug 27
 
 ## Useful Links
 

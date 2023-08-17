@@ -6,9 +6,10 @@ homepage: true
 
 Fall 2023, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2023/cs502){:target="_blank"}. Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
+<!-- Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2023/cs502){:target="_blank"}. -->
+Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
-<!-- > Lectures are Monday, Wednesday and Friday, 10:30am to 11:20am in LWSN B151. As the Pandemic situation evolves
+> Lectures are Tuesday and Thursday, 3:00-4:15pm in LWSN B151. As the Pandemic situation evolves
 > the mode of lecture delivery might need to change. Please keep an eye on the announcements on Piazza.
 >
 > Teaching assistants are:
@@ -16,7 +17,7 @@ Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2023/cs50
 > - Anxhelo Xhebraj, <axhebraj@purdue.edu>
 > - Songlin Jia, <jia137@purdue.edu>
 >
-> Office hour is 9-11am Tuesday, by [Zoom](https://purdue-edu.zoom.us/j/96539040632) (passcode 530432). -->
+> Office hours are yet to be scheduled.
 
 
 # About the Course <a id="about"></a>
@@ -149,6 +150,7 @@ Extra material:
 # Projects <a id="project"></a>
 
 - [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 27)
+
 <!-- - [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Jan 22)
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Feb 5)
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Feb 19)
