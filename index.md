@@ -6,7 +6,7 @@ homepage: true
 
 Fall 2023, 3 credits. Instructor: Prof. Tiark Rompf
 
-<!-- Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2023/cs502){:target="_blank"}. -->
+Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2023/cs502){:target="_blank"}.
 Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
 > Lectures are Tuesday and Thursday, 3:00-4:15pm in LWSN B151. As the Pandemic situation evolves
