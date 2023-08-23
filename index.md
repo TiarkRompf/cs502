@@ -17,7 +17,7 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 > - Anxhelo Xhebraj, <axhebraj@purdue.edu>
 > - Songlin Jia, <jia137@purdue.edu>
 >
-> Office hours are yet to be scheduled.
+> Office hours will be held on Tuesday, 5-6pm, at HAAS 143.
 
 
 # About the Course <a id="about"></a>
