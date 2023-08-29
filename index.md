@@ -18,6 +18,8 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 > - Songlin Jia, <jia137@purdue.edu>
 >
 > Office hours will be held on Tuesday, 5-6pm, at HAAS 143.
+>
+> Midterm will be held on Thu Oct 5th.
 
 
 # About the Course <a id="about"></a>
@@ -152,8 +154,8 @@ Extra material:
 - [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 27)
 - [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 3)
 
-<!-- - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Feb 5)
-- [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Feb 19)
-- [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Mar 5)
-- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Apr 2)
-- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Apr 23) -->
+<!-- - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 17)
+- [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Oct 1)
+- [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 29)
+- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 12)
+- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Dec 3) -->
