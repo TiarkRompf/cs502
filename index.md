@@ -96,16 +96,16 @@ Week 2
 - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-1.pdf){:target="_blank"}
 - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-2.pdf){:target="_blank"}
 
-Week 3-4
+Week 3
 
 - Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week3-1.pdf){:target="_blank"}
 - Functions - Arrays [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week3-2.pdf){:target="_blank"}
 
-<!-- Week 5
+Week 4
 
 - Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week4-1.pdf){:target="_blank"}
 
-Week 6
+<!-- Week 6
 
 - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week5-1.pdf){:target="_blank"}
 - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week6-1.pdf){:target="_blank"}
