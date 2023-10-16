@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due Mar 5, 11:59PM (two weeks project)
+> Due Oct 29, 11:59PM (two weeks project)
 
 Your task in this assignment is to implement a compiler phase for the
 CPS value representation transformation, including closure conversion.
