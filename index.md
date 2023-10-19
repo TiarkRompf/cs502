@@ -105,16 +105,16 @@ Week 4-5
 
 - Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week4-1.pdf){:target="_blank"}
 
-Week 6
+Week 6-8
 
 - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week5-1.pdf){:target="_blank"}
 - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week6-1.pdf){:target="_blank"}
 
-<!-- Week 7
+Week 9
 
 - Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week7-1.pdf){:target="_blank"}
 
-Week 8
+<!-- Week 8
 
 - Dataflow Analysis [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week8-1.pdf){:target="_blank"}
 
