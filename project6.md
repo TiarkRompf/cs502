@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due 11:59PM Sunday April 2nd
+> Due 11:59PM Sunday Nov 12th
 
 Download the skeleton code for the project
 [here](https://www.cs.purdue.edu/homes/jia137/cs502/proj6.zip){:target="_blank"}.
