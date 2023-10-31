@@ -114,11 +114,11 @@ Week 9
 
 - Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week7-1.pdf){:target="_blank"}
 
-<!-- Week 8
+Week 10
 
 - Dataflow Analysis [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week8-1.pdf){:target="_blank"}
 
-Week 11-12
+<!-- Week 11-12
 
 - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week10-2.pdf){:target="_blank"}
 
