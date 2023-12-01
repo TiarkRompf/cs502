@@ -20,6 +20,8 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 > Office hours will be held on Tuesday, 5-6pm, at HAAS 143.
 >
 > Midterm will be held on Thu Oct 5th.
+>
+> Final (see details in myPurdue): Tues, Dec 12th, LILY 3418
 
 
 # About the Course <a id="about"></a>
