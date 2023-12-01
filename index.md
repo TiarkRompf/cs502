@@ -21,7 +21,7 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 >
 > Midterm will be held on Thu Oct 5th.
 >
-> Final (see details in myPurdue): Tues, Dec 12th, LILY 3418
+> Final (see details in myPurdue): 1-3pm, Tues, Dec 12th, LILY 3418
 
 
 # About the Course <a id="about"></a>
