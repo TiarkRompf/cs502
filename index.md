@@ -4,24 +4,19 @@ title: Compiling And Programming Systems
 homepage: true
 ---
 
-Fall 2023, 3 credits. Instructor: Prof. Tiark Rompf
+Fall 2024, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2023/cs502){:target="_blank"}.
+Announcements will be posted on [Piazza](https://piazza.com/){:target="_blank"}.
 Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
-> Lectures are Tuesday and Thursday, 3:00-4:15pm in LWSN B151. As the Pandemic situation evolves
+> Lectures are Monday and Wednesday, 4:30-5:45pm in LWSN B151. As the Pandemic situation evolves
 > the mode of lecture delivery might need to change. Please keep an eye on the announcements on Piazza.
 >
 > Teaching assistants are:
 >
-> - Anxhelo Xhebraj, <axhebraj@purdue.edu>
 > - Songlin Jia, <jia137@purdue.edu>
 >
-> Office hours will be held on Tuesday, 5-6pm, at HAAS 143.
->
-> Midterm will be held on Thu Oct 5th.
->
-> Final (see details in myPurdue): 1-3pm, Tues, Dec 12th, LILY 3418
+> Office hours to be decided.
 
 
 # About the Course <a id="about"></a>
@@ -93,7 +88,7 @@ Week 1
 - Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf){:target="_blank"}
 - Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf){:target="_blank"}
 
-Week 2
+<!-- Week 2
 
 - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-1.pdf){:target="_blank"}
 - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-2.pdf){:target="_blank"}
@@ -124,10 +119,10 @@ Week 11-13
 
 - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week10-2.pdf){:target="_blank"}
 
-<!-- Week 13
+-- Week 13
 
 - Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week11-2.pdf){:target="_blank"}
-- Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week12-1.pdf){:target="_blank"} -->
+- Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week12-1.pdf){:target="_blank"}
 
 Week 14-15
 
@@ -136,7 +131,7 @@ Week 14-15
 
 Week 16
 
-- Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week14-1.pdf){:target="_blank"}
+- Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week14-1.pdf){:target="_blank"} -->
 
 <!-- - TurboFan JIT Design [(link)](https://docs.google.com/presentation/d/1sOEF4MlF7LeO7uq-uThJSulJlTh--wgLeaVibsbb3tc/htmlpresent) -->
 
@@ -153,10 +148,10 @@ Extra material:
 
 # Projects <a id="project"></a>
 
-- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 27)
-- [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 3)
+- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 25)
+<!-- - [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 3)
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 17)
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Oct 1)
 - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 29)
 - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 12)
-- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Dec 3)
+- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Dec 3) -->
