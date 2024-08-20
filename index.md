@@ -6,7 +6,7 @@ homepage: true
 
 Fall 2024, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on [Piazza](https://piazza.com/){:target="_blank"}.
+Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2024/cs502){:target="_blank"}.
 Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
 > Lectures are Monday and Wednesday, 4:30-5:45pm in LWSN B151. As the Pandemic situation evolves
@@ -16,7 +16,7 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 >
 > - Songlin Jia, <jia137@purdue.edu>
 >
-> Office hours to be decided.
+> Office hours are held on Thursday, 10-11am on [Zoom](https://purdue-edu.zoom.us/j/92375299996?pwd=NivqHxbAoL0AxbAHlwJqQSidXWRbcP.1){:target="_blank"}.
 
 
 # About the Course <a id="about"></a>
