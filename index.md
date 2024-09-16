@@ -17,6 +17,8 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 > - Songlin Jia, <jia137@purdue.edu>
 >
 > Office hours are held on Thursday, 10-11am on [Zoom](https://purdue-edu.zoom.us/j/92375299996?pwd=NivqHxbAoL0AxbAHlwJqQSidXWRbcP.1){:target="_blank"}.
+>
+> Midterm is going to be held during the class on Oct 2nd.
 
 
 # About the Course <a id="about"></a>
