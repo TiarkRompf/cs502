@@ -104,12 +104,12 @@ Week 4-5
 
 - Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week4-1.pdf){:target="_blank"}
 
-<!-- Week 6-8
+Week 6-8
 
 - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week5-1.pdf){:target="_blank"}
 - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week6-1.pdf){:target="_blank"}
 
-Week 9
+<!-- Week 9
 
 - Optimizations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week7-1.pdf){:target="_blank"}
 
@@ -155,6 +155,6 @@ Extra material:
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 15)
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Sep 29)
 
-<!-- - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 27)
-- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 10)
-- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Dec 1) -->
+<!-- - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 20)
+- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3)
+- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24) -->
