@@ -18,6 +18,8 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 >
 > Office hours are held on Thursday, 1-2pm on [Zoom](https://purdue-edu.zoom.us/j/92375299996?pwd=NivqHxbAoL0AxbAHlwJqQSidXWRbcP.1){:target="_blank"}.
 >
+> Update: Office hour on Oct 24th will be skipped.
+>
 > Midterm is going to be held during the class on Oct 2nd.
 >
 > Final: Tue 12/10, 2024, 1:00p - 3:00p, LWSN B151
@@ -157,6 +159,6 @@ Extra material:
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 15)
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Sep 29)
 - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 20)
+- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3)
 
-<!-- - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3)
-- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24) -->
+<!-- - [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24) -->
