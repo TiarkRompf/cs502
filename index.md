@@ -125,7 +125,7 @@ Week 11-13
 
 - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week10-2.pdf){:target="_blank"}
 
-<!-- -- Week 13
+-- Week 13
 
 - Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week11-2.pdf){:target="_blank"}
 - Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week12-1.pdf){:target="_blank"}
@@ -135,7 +135,7 @@ Week 14-15
 - Interpreters And Virtual Machines [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week12-2.pdf){:target="_blank"}
 - Memory Management [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week13-1.pdf){:target="_blank"}
 
-Week 16
+<!-- Week 16
 
 - Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week14-1.pdf){:target="_blank"} -->
 
