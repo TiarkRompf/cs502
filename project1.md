@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due 11:59pm Sunday Aug 25
+> Due 11:59pm Sunday Aug 31
 
 ## Useful Links
 
@@ -22,13 +22,15 @@ very small steps. Make sure that you understand everything correctly
 before going to the next step.
 
 At the end of the project, we will be able to parse mathematical
-expressions with single digit numbers, addition, substraction,
+expressions with single digit numbers, addition, subtraction,
 multiplication, division, and parentheses. Our parser will generate an
 intermediate representation in the form of an Abstract Syntax Tree
 (AST). The definition of the AST is the one used during the lecture.
 
 In parallel, we will implement a generator that converts the AST into
 x86_64 code.
+
+Note: The tests run x86_64 assembly code. MacBooks with ARM CPUs are not supported.
 
 Here is a small example of what we will be able to generate by the end
 of the project:
@@ -111,7 +113,7 @@ Java projects. These files contain the information necessary to compile
 this project. You should not have to modify them.
 
 To use sbt, launch a terminal and go to the project directory (proj1)
-and enter `sbt`. It will lauch an sbt console. You can run the program
+and enter `sbt`. It will launch an sbt console. You can run the program
 from there:
 
     run "arg1" "arg2" // run main program with arguments arg1 and arg2
@@ -122,13 +124,13 @@ from there:
 
 This file defines multiple classes that are used to generate the code
 and run it on your machine. Nothing needs to be modified, but it is
-recommanded to read it and have an idea of what is happening behind the
+recommended to read it and have an idea of what is happening behind the
 scenes.
 
 ### gen/bootstrap.c
 
 As we are generating assembly code which is OS dependent, we are using
-GCC to do the heavy lifting for us. The boostrap file is a generic C
+GCC to do the heavy lifting for us. The bootstrap file is a generic C
 file that is calling a function **entry_point** and is printing the
 result in **stdout**. Our compiler will generate the file **gen/gen.s**
 and will be assembled and bootstrapped by gcc:
@@ -174,7 +176,7 @@ before proceeding.
 In this file, we are defining some generators that can convert our AST
 into x86_64 code.
 
-We consider two different ways of generating the assmbly code, each of
+We consider two different ways of generating the assembly code, each of
 which has pros and cons: **Stack-based** code, which is not very
 efficient but can handle arbitrarily complex expressions; and
 **Register-based** code, which is efficient but can not handle
@@ -187,20 +189,21 @@ These files contain some unit tests for the first parsers. You will have
 to write your own tests for the others. There are some functions given
 to you in order to make the implementation easier.
 
-## Turnin
+## Submission
 
 You should turn in the **proj1** directory. Please run an 'sbt clean'
 and './cleanall.sh' before submitting.
 
 To turn in your project create a ZIP file named
-`<purdueemailusername>-proj<N>.zip` of the `proj1` directory for
-example `axhebraj-proj1.zip` and upload it to the corresponding
+`proj<N>.zip` of the `proj1` directory for
+example `proj1.zip` and upload it to the corresponding
 assignment on Brightspace.
 
 **No other file formats or naming conventions will be accepted as
 submissions. Verify your submission by downloading the ZIP file you
 uploaded on Brightspace and extracting its content. The uncompressed
-content should be the `proj1` folder containing the code.**
+content should be the `proj1` folder containing the code. Your submission 
+ZIP file should have the exact same structure as the skeleton ZIP file.**
 
 ## Grading
 

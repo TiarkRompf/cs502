@@ -4,25 +4,18 @@ title: Compiling And Programming Systems
 homepage: true
 ---
 
-Fall 2024, 3 credits. Instructor: Prof. Tiark Rompf
+Fall 2025, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2024/cs502){:target="_blank"}.
+Announcements will be posted on Piazza (link to be updated).
 Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
-> Lectures are Monday and Wednesday, 4:30-5:45pm in LWSN B151. As the Pandemic situation evolves
-> the mode of lecture delivery might need to change. Please keep an eye on the announcements on Piazza.
+> Monday, Wednesday and Friday, 9:30-10:20am in WALC 3154.
 >
 > Teaching assistants are:
 >
-> - Songlin Jia, <jia137@purdue.edu>
+> - Songlin Jia, [jia137 at purdue.edu]()
 >
-> Office hours are held on Thursday, 1-2pm on [Zoom](https://purdue-edu.zoom.us/j/92375299996?pwd=NivqHxbAoL0AxbAHlwJqQSidXWRbcP.1){:target="_blank"}.
->
-> Update: Office hour on Oct 24th will be skipped.
->
-> Midterm is going to be held during the class on Oct 2nd.
->
-> Final: Tue 12/10, 2024, 1:00p - 3:00p, LWSN B151
+> Time for offices hours is to be decided, and will be offered over Zoom.
 
 
 # About the Course <a id="about"></a>
@@ -89,12 +82,14 @@ A set of lecture notes is available here:
 
 # Slides <a id="schedule"></a>
 
+> Download password available in Piazza
+
 Week 1
 
 - Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf){:target="_blank"}
 - Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf){:target="_blank"}
 
-Week 2
+<!-- Week 2
 
 - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-1.pdf){:target="_blank"}
 - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-2.pdf){:target="_blank"}
@@ -125,7 +120,7 @@ Week 11-13
 
 - Register Allocation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week10-2.pdf){:target="_blank"}
 
--- Week 13
+Week 13
 
 - Instruction Scheduling [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week11-2.pdf){:target="_blank"}
 - Tail Call [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week12-1.pdf){:target="_blank"}
@@ -137,7 +132,7 @@ Week 14-15
 
 Week 16
 
-- Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week14-1.pdf){:target="_blank"}
+- Object-Oriented Languages [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week14-1.pdf){:target="_blank"} -->
 
 <!-- - TurboFan JIT Design [(link)](https://docs.google.com/presentation/d/1sOEF4MlF7LeO7uq-uThJSulJlTh--wgLeaVibsbb3tc/htmlpresent) -->
 
@@ -152,12 +147,20 @@ Extra material:
 -->
 
 
-# Projects <a id="project"></a>
+# Projects and Schedule <a id="project"></a>
 
-- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 25)
-- [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 1)
-- [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 15)
-- [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Sep 29)
-- [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 20)
-- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3)
-- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24)
+> Upcoming schedules are tentative.
+
+- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 31)
+- Project 2: Branches, Loops, and Error Handling (due 11:59pm Sunday Sep 7)
+<!-- - [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 1) -->
+- Project 3: Type Checking - Functions - Heap Allocation (due 11:59pm Sunday Sep 21)
+<!-- - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 15) -->
+- Project 4: CMScala to CPS Translation (due 11:59pm Sunday Oct 5)
+<!-- - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Sep 29) -->
+- Project 5: Value Representation (due 11:59pm Sunday Oct 26)
+<!-- - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 20) -->
+- Project 6: Optimization (due 11:59pm Sunday Nov 9)
+<!-- - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3) -->
+- Project 7: Garbage Collection (due 11:59pm Sunday Nov 30)
+<!-- - [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24) -->
