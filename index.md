@@ -82,6 +82,8 @@ A set of lecture notes is available here:
 
 # Slides <a id="schedule"></a>
 
+> Download password available in Piazza
+
 Week 1
 
 - Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf){:target="_blank"}
