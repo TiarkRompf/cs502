@@ -6,14 +6,14 @@ homepage: true
 
 Fall 2025, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on Piazza (link to be updated){:target="_blank"}.
+Announcements will be posted on Piazza (link to be updated).
 Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
 > Monday, Wednesday and Friday, 9:30-10:20am in WALC 3154.
 >
 > Teaching assistants are:
 >
-> - Songlin Jia, <jia137@purdue.edu>
+> - Songlin Jia, [jia137 at purdue.edu]()
 >
 > Time for offices hours is to be decided, and will be offered over Zoom.
 
@@ -146,6 +146,8 @@ Extra material:
 
 
 # Projects and Schedule <a id="project"></a>
+
+> Upcoming schedules are tentative.
 
 - [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 31)
 - Project 2: Branches, Loops, and Error Handling (due 11:59pm Sunday Sep 7)
