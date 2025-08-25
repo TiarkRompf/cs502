@@ -6,7 +6,7 @@ homepage: true
 
 Fall 2025, 3 credits. Instructor: Prof. Tiark Rompf
 
-Announcements will be posted on Piazza (link to be updated).
+Announcements will be posted on [Piazza](https://piazza.com/purdue/fall2025/cs502){:target="_blank"}.
 Homework submission and grading will be done through [Brightspace](https://purdue.brightspace.com/){:target="_blank"}.
 
 > Monday, Wednesday and Friday, 9:30-10:20am in WALC 3154.
@@ -15,7 +15,7 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 >
 > - Songlin Jia, [jia137 at purdue.edu]()
 >
-> Time for offices hours is to be decided, and will be offered over Zoom.
+> Time for office hours is to be decided, and will be offered over Zoom.
 
 
 # About the Course <a id="about"></a>
