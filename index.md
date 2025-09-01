@@ -82,19 +82,19 @@ A set of lecture notes is available here:
 
 # Slides <a id="schedule"></a>
 
-> Download password available in Piazza
+> Download credentials available in Piazza
 
 Week 1
 
 - Introduction to Compilers [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-1.pdf){:target="_blank"}
 - Operator precedence and Tokenization [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week1-2.pdf){:target="_blank"}
 
-<!-- Week 2
+Week 2
 
 - Error handling - Semantics - Branches [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-1.pdf){:target="_blank"}
 - Variables - Loops - Type Checking [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week2-2.pdf){:target="_blank"}
 
-Week 3
+<!-- Week 3
 
 - Type Checking/Inference - Functions [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week3-1.pdf){:target="_blank"}
 - Functions - Arrays [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week3-2.pdf){:target="_blank"}
@@ -149,11 +149,11 @@ Extra material:
 
 # Projects and Schedule <a id="project"></a>
 
+- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 31)
+- [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 7)
+
 > Upcoming schedules are tentative.
 
-- [Project 1: Arithmetic](project1.html) (due 11:59pm Sunday Aug 31)
-- Project 2: Branches, Loops, and Error Handling (due 11:59pm Sunday Sep 7)
-<!-- - [Project 2: Branches, Loops, and Error Handling](project2.html) (due 11:59pm Sunday Sep 1) -->
 - Project 3: Type Checking - Functions - Heap Allocation (due 11:59pm Sunday Sep 21)
 <!-- - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 15) -->
 - Project 4: CMScala to CPS Translation (due 11:59pm Sunday Oct 5)
