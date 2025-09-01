@@ -15,8 +15,7 @@ Homework submission and grading will be done through [Brightspace](https://purdu
 >
 > - Songlin Jia, [jia137 at purdue.edu]()
 >
-> Time for office hours is to be decided, and will be offered over Zoom.
-
+> Office hours will be held at 5-5:40pm in DSAI B022 on Tue and Wed.
 
 # About the Course <a id="about"></a>
 
