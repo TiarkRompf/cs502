@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due 11:59pm Sunday Sep 15 (two weeks project)
+> Due 11:59pm Sunday Sep 21 (two weeks project)
 
 ## Useful Links
 
@@ -222,9 +222,9 @@ counted as extra credit.
 You should turn in the **proj3** directory. Please run an \'sbt clean\'
 and \'./cleanall.sh\' before submitting.
 
-To turn in your project create a ZIP file named
-`<purdueemailusername>-proj<N>.zip` of the `proj3` directory for
-example `axhebraj-proj3.zip` and upload it to the corresponding
+To turn in your project, create a ZIP file named
+`proj<N>.zip` of the `proj<N>` directory.
+Then, upload it to the corresponding
 assignment on Brightspace.
 
 **No other file formats or naming conventions will be accepted as
