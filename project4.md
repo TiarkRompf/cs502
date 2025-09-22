@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due: Sep 29, 11:59PM (two weeks project)
+> Due 11:59pm Sunday Oct 5 (two weeks project)
 
 ## Introduction
 
@@ -143,8 +143,8 @@ You should turn in the **proj4** directory. Please run an '`sbt clean`'
 and '`./cleanall.sh`' before submitting.
 
 To turn in your project create a ZIP file named
-`<purdueemailusername>-proj<N>.zip` of the `proj4` directory for
-example `axhebraj-proj4.zip` and upload it to the corresponding
+`proj<N>.zip` of the `proj4` directory for
+example `proj4.zip` and upload it to the corresponding
 assignment on Brightspace.
 
 **No other file formats or naming conventions will be accepted as
