@@ -102,7 +102,7 @@ Week 4-5
 
 - Intermediate Representations [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week4-1.pdf){:target="_blank"}
 
--- Week 6-8
+Week 6-8
 
 - Values Representation [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week5-1.pdf){:target="_blank"}
 - Closure Conversion [(pdf)](https://www.cs.purdue.edu/homes/jia137/cs502/week6-1.pdf){:target="_blank"}
