@@ -153,11 +153,10 @@ Extra material:
 - [Project 3: Type Checking - Functions - Heap Allocation](project3.html) (due 11:59pm Sunday Sep 21)
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Oct 5)
 - Midterm: Wed Oct 8th in class
+- [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 26)
 
 > Upcoming schedules are tentative.
 
-- Project 5: Value Representation (due 11:59pm Sunday Oct 26)
-<!-- - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 20) -->
 - Project 6: Optimization (due 11:59pm Sunday Nov 9)
 <!-- - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3) -->
 - Project 7: Garbage Collection (due 11:59pm Sunday Nov 30)

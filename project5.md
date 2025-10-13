@@ -4,7 +4,7 @@ usetable: true
 layout: template
 ---
 
-> Due Oct 20, 11:59PM (two weeks project)
+> Due 11:59pm Sunday Oct 26 (two weeks project)
 
 Your task in this assignment is to implement a compiler phase for the
 CPS value representation transformation, including closure conversion.
@@ -119,12 +119,14 @@ implementation that is part of the skeleton for Project 5.
 
 You should turn in the **proj5** directory. Please run an \'sbt clean\'
 and \'./cleanall.sh\' before submitting.
+**Please do not submit your local build cache.**
 
 To turn in your project create a ZIP file named
-`proj5.zip` of the `proj5` directory and upload it to the corresponding
+`proj<N>.zip` of the `proj5` directory for
+example `proj5.zip` and upload it to the corresponding
 assignment on Brightspace.
 
 **No other file formats or naming conventions will be accepted as
 submissions. Verify your submission by downloading the ZIP file you
-uploaded on Brightspace and extracting its content. The uncompressed
+uploaded on Brightspace and extracting its content. The decompressed
 content should be the `proj5` folder containing the code.**
