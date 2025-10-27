@@ -160,3 +160,4 @@ Extra material:
 
 - Project 7: Garbage Collection (due 11:59pm Sunday Nov 30)
 <!-- - [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24) -->
+- Final: Mon Dec 15th, 8-10am, HAAS G066
