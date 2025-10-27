@@ -154,10 +154,9 @@ Extra material:
 - [Project 4: CMScala to CPS Translation](project4.html) (due 11:59pm Sunday Oct 5)
 - Midterm: Wed Oct 8th in class
 - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 26)
+- [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 9)
 
 > Upcoming schedules are tentative.
 
-- Project 6: Optimization (due 11:59pm Sunday Nov 9)
-<!-- - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 3) -->
 - Project 7: Garbage Collection (due 11:59pm Sunday Nov 30)
 <!-- - [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 24) -->
