@@ -155,7 +155,7 @@ Extra material:
 - Midterm: Wed Oct 8th in class
 - [Project 5: Value Representation](project5.html) (due 11:59pm Sunday Oct 26)
 - [Project 6: Optimization](project6.html) (due 11:59pm Sunday Nov 9)
-- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Nov 30)
+- [Project 7: Garbage Collection](project7.html) (due 11:59pm Sunday Dec 7)
 
 > Upcoming schedules are tentative.
 
